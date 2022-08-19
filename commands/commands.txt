@@ -1,0 +1,277 @@
+sudo docker run --network "host" -p 8080:8080 user_service:0.0.1-SNAPSHOT
+
+sudo docker run --network "host" -p 8087:8087 sendeservice.jar
+
+sudo docker image ls
+
+sudo docker build -t user-service.jar .
+
+npx react-native run-android
+
+ {
+                addcaretaker && <Dialog.Container visible={true} onBackdropPress={() => addcaretakerstate(false)}>
+                    <Dialog.Title>Enter caretaker mail</Dialog.Title>
+                    <Dialog.Input label="Enail" onChangeText={Mailchanged}></Dialog.Input>
+                    <Dialog.Button label="Send Request" style={{ color: 'red' }} onPress={sendmailtouser}></Dialog.Button>
+                </Dialog.Container>
+
+            }
+
+
+              <Button title="Add caretaker"
+                onPress={() => addcaretakerstate(true)}
+
+                style={{
+                    backgroundColor: 'black',
+                    borderWidth: 2,
+                    position: 'absolute',
+                    bottom: 10,
+                    right: 10,
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    elevation: 8,
+                    borderColor: 'white',
+                    borderRadius: 30,
+                }}
+                containerStyle={{
+                    width: 200,
+                    marginHorizontal: 50,
+                    marginVertical: 10,
+                }}
+                titleStyle={{ fontWeight: 'bold' }}></Button>
+
+
+
+
+                <View style={styles.container}>
+      <Card style={{elevation: 2, borderRadius: 14}}>
+        <View style={styles.top}>
+          <View>
+            <Image
+              style={styles.icon}
+              // source={require('../../assests/patient.jpg')}
+              source={{
+                uri: userdetails.userEntityList[0].userDetails.pic_path,
+              }}
+            />
+          </View>
+          <View style={styles.toptext}>
+            <Text
+              style={{
+                fontSize: 20,
+                fontWeight: '500',
+                color: 'black',
+                marginBottom: 3,
+              }}>
+            {userdetails.userEntityList[0].user_name}
+            </Text>
+            <Text style={{color: 'grey', marginBottom: 3}}>
+           {userdetails.userEntityList[0].email}
+            </Text>
+            <Text style={{color: 'grey'}}>{userdetails.userEntityList[0].userDetails.usercontact}</Text>
+          </View>
+          {/* <FontAwesomeIcon
+            style={{marginLeft: 30, marginTop: 30, color: '#ff8f00'}}
+            size={30}
+            icon={faBell}
+          /> */}
+        </View>
+      </Card>
+
+      <ScrollView>
+        <View
+          style={{
+            flexDirection: 'row',
+            justifyContent: 'flex-start',
+            padding: 10,
+            marginTop: 10,
+            marginLeft: 10,
+            marginBottom: 10,
+          }}>
+          <FontAwesomeIcon
+            icon={faUser}
+            size={20}
+            color="black"
+            style={{marginTop: 3}}
+          />
+          <Text
+            style={{
+              marginLeft: 30,
+              fontSize: 18,
+              color: '#78909c',
+              fontWeight: '400',
+            }}>
+            {userdetails.userEntityList[0].userDetails.bio}
+          </Text>
+        </View>
+        <View
+          style={{
+            flexDirection: 'row',
+            justifyContent: 'flex-start',
+            padding: 10,
+            marginLeft: 10,
+            marginBottom: 10,
+          }}>
+          <FontAwesomeIcon
+            icon={faSortNumericUp}
+            size={20}
+            color="black"
+            style={{marginTop: 2}}
+          />
+          <Text
+            style={{
+              marginLeft: 30,
+              fontSize: 18,
+              color: '#78909c',
+              fontWeight: '400',
+            }}>
+ {userdetails.userEntityList[0].userDetails.age}
+          </Text>
+        </View>
+        <View
+          style={{
+            flexDirection: 'row',
+            justifyContent: 'flex-start',
+            padding: 10,
+            marginLeft: 10,
+            marginBottom: 10,
+          }}>
+          <FontAwesomeIcon
+            icon={faDroplet}
+            size={20}
+            color="black"
+            style={{marginTop: 2}}
+          />
+          <Text
+            style={{
+              marginLeft: 30,
+              fontSize: 18,
+              color: '#78909c',
+              fontWeight: '400',
+            }}>
+{userdetails.userEntityList[0].userDetails.blood_group}
+          </Text>
+        </View>
+        <View
+          style={{
+            flexDirection: 'row',
+            justifyContent: 'flex-start',
+            padding: 10,
+            marginLeft: 10,
+            marginBottom: 10,
+          }}>
+          <FontAwesomeIcon
+            icon={faUserGroup}
+            size={20}
+            color="black"
+            style={{marginTop: 2}}
+          />
+          <Text
+            style={{
+              marginLeft: 30,
+              fontSize: 18,
+              color: '#78909c',
+              fontWeight: '400',
+            }}>
+ {userdetails.userEntityList[0].userDetails.martial_status}
+          </Text>
+        </View>
+        <View
+          style={{
+            flexDirection: 'row',
+            justifyContent: 'flex-start',
+            padding: 10,
+            marginLeft: 10,
+            marginBottom: 10,
+          }}>
+          <FontAwesomeIcon
+            icon={faWeight}
+            size={20}
+            color="black"
+            style={{marginTop: 2}}
+          />
+          <Text
+            style={{
+              marginLeft: 30,
+              fontSize: 18,
+              color: '#78909c',
+              fontWeight: '400',
+            }}>
+{userdetails.userEntityList[0].userDetails.weight}
+          </Text>
+        </View>
+        <View
+          style={{
+            flexDirection: 'row',
+            justifyContent: 'flex-start',
+            padding: 10,
+            marginLeft: 10,
+            marginBottom: 10,
+          }}>
+          <FontAwesomeIcon
+            icon={faPhone}
+            size={20}
+            color="black"
+            style={{marginTop: 2}}
+          />
+          <Text
+            style={{
+              marginLeft: 30,
+              fontSize: 18,
+              color: '#78909c',
+              fontWeight: '400',
+            }}>
+{userdetails.userEntityList[0].userDetails.usercontact}
+          </Text>
+        </View>
+        <View style={styles.userDetails}>
+          <List.Section style={{backgroundColor: 'white'}}>
+            <List.Accordion
+              title="Medicine 1"
+              titleStyle={{
+                marginLeft: 20,
+                fontSize: 18,
+                fontWeight: '500',
+              }}
+              left={props => (
+                <FontAwesomeIcon
+                  size={20}
+                  icon={faKitMedical}
+                  color="black"
+                  style={{marginLeft: 14}}
+                />
+              )}>
+              <List.Item
+                titleStyle={styles.listitem}
+                title="Medicine 1"
+                right={() => (
+                  <TouchableOpacity
+                    onPress={() => Alert.alert('Sending Notification...')}>
+                    <FontAwesomeIcon
+                      icon={faBell}
+                      size={28}
+                      style={{marginRight: 10, color: '#ff8f00'}}
+                    />
+                  </TouchableOpacity>
+                )}
+              />
+              <List.Item
+                titleStyle={styles.listitem}
+                title="Medicine 1"
+                right={() => (
+                  <TouchableOpacity
+                    onPress={() => sendnotificationtouser(userdetails.userEntityList[0].userDetails.fcm_token)}>
+                    <FontAwesomeIcon
+                      icon={faBell}
+                      size={28}
+                      style={{marginRight: 10, color: '#ff8f00'}}
+                    />
+                  </TouchableOpacity>
+                )}
+              />
+            </List.Accordion>
+          </List.Section>
+          <View style={{height: 1, backgroundColor: 'lightgrey'}} />
+        </View>
+      </ScrollView>
+    </View>

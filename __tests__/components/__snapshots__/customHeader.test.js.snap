@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`customheader render component 1`] = `
+<Fragment>
+  <SafeAreaProvider>
+    <ForwardRef(DrawerContentScrollView)
+      style={
+        Object {
+          "backgroundColor": "#3743ab",
+          "height": "100%",
+        }
+      }
+    >
+      <TouchableOpacity
+        activeOpacity={0.2}
+        delayLongPress={600}
+        extraButtonProps={
+          Object {
+            "exclusive": true,
+            "rippleColor": "transparent",
+          }
+        }
+        id="touch"
+        onPress={[Function]}
+        style={
+          Object {
+            "marginBottom": 8,
+          }
+        }
+      >
+        <ProfileHeader />
+      </TouchableOpacity>
+      <DrawerItemList />
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "marginTop": 60,
+          }
+        }
+      >
+        <Themed.Button
+          buttonStyle={
+            Object {
+              "backgroundColor": "#3743ab",
+              "borderColor": "white",
+              "borderRadius": 5,
+              "borderWidth": 0.4,
+              "justifyContent": "space-around",
+            }
+          }
+          containerStyle={
+            Object {
+              "height": 50,
+              "marginHorizontal": 50,
+              "marginVertical": 10,
+              "width": 200,
+            }
+          }
+          icon={
+            <Icon
+              allowFontScaling={false}
+              color="white"
+              name="logout"
+              size={12}
+            />
+          }
+          iconPosition="right"
+          id="alert"
+          onPress={[Function]}
+          title="Logout"
+          titleStyle={
+            Object {
+              "fontSize": 16,
+              "fontWeight": "500",
+            }
+          }
+        />
+      </View>
+    </ForwardRef(DrawerContentScrollView)>
+  </SafeAreaProvider>
+</Fragment>
+`;

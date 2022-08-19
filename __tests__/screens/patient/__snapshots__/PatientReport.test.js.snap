@@ -1,0 +1,340 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Click send image renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#3743ab",
+      "height": "100%",
+    }
+  }
+>
+  <Modal
+    animationType="fade"
+    hardwareAccelerated={false}
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "red",
+      }
+    }
+    transparent={true}
+    visible={false}
+  />
+  <View
+    style={
+      Object {
+        "backgroundColor": "#3743ab",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "marginTop": 28,
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "justifyContent": "center",
+            },
+            Object {
+              "backgroundColor": "#e3f2fd",
+              "borderRadius": 60,
+              "height": 120,
+              "width": 120,
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "left": 0,
+                "position": "absolute",
+                "top": 0,
+              },
+              Object {
+                "height": 120,
+                "width": 60,
+              },
+            ]
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "borderBottomRightRadius": 0,
+                  "borderTopRightRadius": 0,
+                  "left": 0,
+                  "position": "absolute",
+                  "top": 0,
+                },
+                Object {
+                  "backgroundColor": "#4dd0e1",
+                  "borderRadius": 60,
+                  "height": 120,
+                  "overflow": "hidden",
+                  "transform": Array [
+                    Object {
+                      "translateX": 30,
+                    },
+                    Object {
+                      "rotate": "0deg",
+                    },
+                    Object {
+                      "translateX": -30,
+                    },
+                  ],
+                  "width": 60,
+                },
+              ]
+            }
+          />
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "left": 0,
+                "position": "absolute",
+                "top": 0,
+              },
+              Object {
+                "height": 120,
+                "width": 60,
+              },
+            ]
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "borderBottomRightRadius": 0,
+                  "borderTopRightRadius": 0,
+                  "left": 0,
+                  "position": "absolute",
+                  "top": 0,
+                },
+                Object {
+                  "backgroundColor": "#e3f2fd",
+                  "borderRadius": 60,
+                  "height": 120,
+                  "overflow": "hidden",
+                  "transform": Array [
+                    Object {
+                      "translateX": 30,
+                    },
+                    Object {
+                      "rotate": "0deg",
+                    },
+                    Object {
+                      "translateX": -30,
+                    },
+                  ],
+                  "width": 60,
+                },
+              ]
+            }
+          />
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "justifyContent": "center",
+                "overflow": "hidden",
+              },
+              Object {
+                "backgroundColor": "#fff",
+                "borderRadius": 47,
+                "height": 94,
+                "width": 94,
+              },
+            ]
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#4dd0e1",
+                "fontSize": 18,
+              }
+            }
+          >
+            0%
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "borderRadius": 20,
+            "marginBottom": 12,
+            "marginTop": 15,
+            "padding": 5,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "white",
+              "fontSize": 25,
+              "fontWeight": "500",
+            }
+          }
+        />
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "backgroundColor": "white",
+        "borderTopLeftRadius": 30,
+        "borderTopRightRadius": 30,
+        "flex": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "height": 130,
+          "marginTop": 18,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "fontWeight": "500",
+            "marginBottom": 8,
+          }
+        }
+      >
+        Scheduled Dates for 
+      </Text>
+      <RCTScrollView
+        horizontal={true}
+      >
+        <View />
+      </RCTScrollView>
+    </View>
+    <Text
+      style={
+        Object {
+          "fontSize": 18,
+          "fontWeight": "600",
+          "marginLeft": 10,
+          "marginTop": 8,
+          "textAlign": "center",
+        }
+      }
+    >
+      Medicine History
+    </Text>
+    <RCTScrollView
+      data={Array []}
+      getItem={[Function]}
+      getItemCount={[Function]}
+      keyExtractor={[Function]}
+      onContentSizeChange={[Function]}
+      onLayout={[Function]}
+      onMomentumScrollBegin={[Function]}
+      onMomentumScrollEnd={[Function]}
+      onScroll={[Function]}
+      onScrollBeginDrag={[Function]}
+      onScrollEndDrag={[Function]}
+      removeClippedSubviews={false}
+      renderItem={[Function]}
+      scrollEventThrottle={50}
+      stickyHeaderIndices={Array []}
+      viewabilityConfigCallbackPairs={Array []}
+    >
+      <View />
+    </RCTScrollView>
+    <View
+      style={
+        Array [
+          Object {
+            "borderRadius": 3,
+            "overflow": "hidden",
+          },
+          Object {
+            "borderRadius": 3,
+          },
+          undefined,
+          false,
+        ]
+      }
+    >
+      <View
+        accessibilityRole="button"
+        accessibilityState={
+          Object {
+            "busy": false,
+            "disabled": false,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#3743ab",
+              "borderColor": "#2089dc",
+              "borderRadius": 3,
+              "borderWidth": 0,
+              "flexDirection": "row",
+              "height": 40,
+              "justifyContent": "center",
+              "padding": 8,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "white",
+                "fontSize": 18,
+                "paddingVertical": 1,
+                "textAlign": "center",
+              }
+            }
+          >
+            Download PDF
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;
