@@ -23,9 +23,9 @@
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">57.14% </span>
+                <span class="strong">14.28% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>4/7</span>
+                <span class='fraction'>1/7</span>
             </div>
         
             
@@ -37,16 +37,16 @@
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">50% </span>
+                <span class="strong">0% </span>
                 <span class="quiet">Functions</span>
-                <span class='fraction'>2/4</span>
+                <span class='fraction'>0/4</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">57.14% </span>
+                <span class="strong">14.28% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>4/7</span>
+                <span class='fraction'>1/7</span>
             </div>
         
             
@@ -61,7 +61,7 @@
             </div>
         </template>
     </div>
-    <div class='status-line medium'></div>
+    <div class='status-line low'></div>
     <pre><table class="coverage">
 <tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
 <a name='L2'></a><a href='#L2'>2</a>
@@ -130,8 +130,8 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -144,7 +144,7 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
@@ -188,9 +188,9 @@ import React from 'react';
 import Icon from 'react-native-vector-icons/FontAwesome';
 import styles from '../../screens/adherence/adherenceStyles/MedicineHistoryListStyles';
 import AsyncStorage from '@react-native-async-storage/async-storage';
-const MedicinehistoryList = props =&gt; {
-  const { item, showimgfun, medName } = props;
-  return (
+const MedicinehistoryList = <span class="fstat-no" title="function not covered" >pr</span>ops =&gt; {
+  const { item, showimgfun, medName } = <span class="cstat-no" title="statement not covered" >props;</span>
+<span class="cstat-no" title="statement not covered" >  return (</span>
     &lt;&gt;
       &lt;Animatable.View animation="zoomInUp" duration={200}&gt;
         &lt;View key={item?.medicine_name + '1'} style={styles.conatiner}&gt;
@@ -202,8 +202,8 @@ const MedicinehistoryList = props =&gt; {
               &lt;View&gt;
                 &lt;TouchableOpacity
                   id="touchable1"
-                  onPress={async () =&gt; {
-                    let imgar = await AsyncStorage.getItem(
+                  onPress={<span class="fstat-no" title="function not covered" >as</span>ync () =&gt; {
+                    let imgar = <span class="cstat-no" title="statement not covered" >await AsyncStorage.getItem(</span>
                       item?.date + ' ' + medName,
                     );
 <span class="cstat-no" title="statement not covered" >                    showimgfun(JSON.parse(imgar));</span>
@@ -214,7 +214,7 @@ const MedicinehistoryList = props =&gt; {
             &lt;/View&gt;
           &lt;/Card&gt;
         &lt;/View&gt;
-        {item?.key.not_taken.map(<span class="fstat-no" title="function not covered" >(n</span>ti) =&gt; {
+        {item?.key?.not_taken?.map(<span class="fstat-no" title="function not covered" >(n</span>ti) =&gt; {
 <span class="cstat-no" title="statement not covered" >          return (</span>
             &lt;View key={item?.medicine_name + '4'} style={styles.notTaken}&gt;
               &lt;Text key={item?.medicine_name + '5'}&gt;{nti}&lt;/Text&gt;
@@ -224,7 +224,7 @@ const MedicinehistoryList = props =&gt; {
             &lt;/View&gt;
           );
         })}
-        {item?.key.taken.map(<span class="fstat-no" title="function not covered" >(t</span>ti) =&gt; {
+        {item?.key?.taken?.map(<span class="fstat-no" title="function not covered" >(t</span>ti) =&gt; {
 <span class="cstat-no" title="statement not covered" >          return (</span>
             &lt;View key={item.medicine_name + '12'} style={styles.taken}&gt;
               &lt;Text key={item.medicine_name + '22'}&gt;{tti}&lt;/Text&gt;
@@ -247,7 +247,7 @@ export default MedicinehistoryList;
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
-                at 2022-08-19T10:01:24.542Z
+                at 2022-08-23T06:39:31.661Z
             </div>
         <script src="../../prettify.js"></script>
         <script>

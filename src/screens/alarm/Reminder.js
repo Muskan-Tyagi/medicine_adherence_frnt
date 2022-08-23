@@ -1,29 +1,29 @@
-import React, {useEffect} from 'react';
-import {View, Text, ScrollView, Alert} from 'react-native';
-import {Button} from 'react-native-elements';
-import {Divider} from 'react-native-elements/dist/divider/Divider';
+import React, { useEffect } from 'react';
+import { View, Text, ScrollView, Alert } from 'react-native';
+import { Button } from 'react-native-elements';
+import { Divider } from 'react-native-elements/dist/divider/Divider';
 import DateTimePickerModal from 'react-native-modal-datetime-picker';
 import SectionedMultiSelect from 'react-native-sectioned-multi-select';
 
-import {TouchableOpacity} from 'react-native-gesture-handler';
-import {day_data} from '../../components/alarm/timeData';
-import PushNotification, {Importance} from 'react-native-push-notification';
+import { TouchableOpacity } from 'react-native-gesture-handler';
+import { day_data } from '../../components/alarm/timeData';
+import PushNotification, { Importance } from 'react-native-push-notification';
 
 import Icon from 'react-native-vector-icons/FontAwesome';
 import Icon2 from 'react-native-vector-icons/MaterialIcons';
 import EntypoIcon from 'react-native-vector-icons/Entypo';
 
-import {TextInput} from 'react-native-paper';
+import { TextInput } from 'react-native-paper';
 import CheckBox from 'react-native-check-box';
 import MultiSlider from '@ptomasroos/react-native-multi-slider';
 import DateTimePicker from 'react-native-modal-datetime-picker'; //NOSONAR false positive
 import globalDb from '../../repositories/database/globalDb';
 import styles from './alarmStyles/ReminderStyles';
 import Logger from '../../components/logger';
-import {useRoute} from '@react-navigation/native';
+import { useRoute } from '@react-navigation/native';
 var counter = 0;
 
-const Reminder = ({navigation}) => {
+const Reminder = ({ navigation }) => {
   const db = globalDb();
 
   useEffect(() => {
@@ -272,7 +272,7 @@ const Reminder = ({navigation}) => {
 
       txn.executeSql(
         'UPDATE User_medicines SET title=? , time=? , days=? , start_date =? , end_date=? , status=? , sync=? , total_med_reminders = ? , current_count = ?  where user_id = ' +
-          id,
+        id,
         [
           title,
           time,
@@ -441,10 +441,10 @@ const Reminder = ({navigation}) => {
                 showDropDowns={true}
                 expandDropDowns={true}
                 styles={{
-                  listContainer: {height: 400},
-                  container: {maxHeight: 400, marginTop: 200, padding: 20},
-                  backdrop: {height: 400},
-                  modalWrapper: {height: 400},
+                  listContainer: { height: 400 },
+                  container: { maxHeight: 400, marginTop: 200, padding: 20 },
+                  backdrop: { height: 400 },
+                  modalWrapper: { height: 400 },
                 }}
                 readOnlyHeadings={true}
                 onSelectedItemsChange={onSelecteddaysItemsChange}

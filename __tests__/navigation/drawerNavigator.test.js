@@ -1,6 +1,6 @@
 import React from "react";
 import enableHooks from "jest-react-hooks-shallow";
-import Enzyme, { shallow } from 'enzyme';
+import Enzyme, { shallow,render } from 'enzyme';
 import Adapter from '@wojtekmaj/enzyme-adapter-react-17';
 Enzyme.configure({ adapter: new Adapter() });
 import DrawerNavigator from '../../src/navigation/drawerNavigator'
@@ -19,9 +19,5 @@ describe('drawer navigator', () => {
   it("test", () => {
     const wrapper = shallow(<DrawerNavigator />).childAt(0).dive();
     expect(toJson(wrapper)).toMatchSnapshot();
-  })
-  it("test", () => {
-    const wrapper = shallow(<DrawerNavigator />).childAt(0).dive();
-    wrapper.find("#draw").props().drawerContent("");
   })
 });

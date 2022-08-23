@@ -1,4 +1,3 @@
-import { logger } from 'react-native-logs';
 import Logger from '../../../components/logger';
 import Types from '../allTypes';
 function sendSignupRequest(params) {

@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Settins Screen renders correctly 1`] = `
+exports[`AdherenceHistory Screen renders correctly 1`] = `
 <View
   style={
     Object {
@@ -20,7 +20,126 @@ exports[`Settins Screen renders correctly 1`] = `
     }
     transparent={true}
     visible={false}
-  />
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "rgba(52, 52, 52, 0.8)",
+          "height": "100%",
+          "justifyContent": "center",
+        }
+      }
+    >
+      <Carousel
+        activeAnimationOptions={null}
+        activeAnimationType="timing"
+        activeSlideAlignment="center"
+        activeSlideOffset={20}
+        apparitionDelay={0}
+        autoplay={false}
+        autoplayDelay={1000}
+        autoplayInterval={3000}
+        callbackOffsetMargin={5}
+        containerCustomStyle={Object {}}
+        contentContainerCustomStyle={Object {}}
+        data={Array []}
+        enableMomentum={false}
+        enableSnap={true}
+        firstItem={0}
+        hasParallaxImages={false}
+        inactiveSlideOpacity={0.7}
+        inactiveSlideScale={0.9}
+        inactiveSlideShift={0}
+        itemWidth={600}
+        layout="stack"
+        lockScrollTimeoutDuration={1000}
+        lockScrollWhileSnapping={false}
+        loop={false}
+        loopClonesPerSide={3}
+        onSnapToItem={[Function]}
+        renderItem={[Function]}
+        scrollEnabled={true}
+        shouldOptimizeUpdates={true}
+        slideStyle={Object {}}
+        sliderWidth={660}
+        swipeThreshold={20}
+        useScrollView={false}
+        vertical={false}
+      />
+      <Pagination
+        activeDotIndex={0}
+        animatedDuration={250}
+        animatedFriction={4}
+        animatedTension={50}
+        containerStyle={
+          Object {
+            "backgroundColor": "rgba(0, 0, 0, 0.75)",
+            "borderRadius": 20,
+            "bottom": "28%",
+            "position": "relative",
+          }
+        }
+        delayPressInDot={0}
+        dotStyle={
+          Object {
+            "backgroundColor": "rgba(255, 255, 255, 0.92)",
+            "borderRadius": 5,
+            "height": 10,
+            "marginHorizontal": 8,
+            "width": 10,
+          }
+        }
+        dotsLength={0}
+        inactiveDotOpacity={0.4}
+        inactiveDotScale={0.6}
+        inactiveDotStyle={
+          Object {
+            "backgroundColor": "red",
+          }
+        }
+        tappableDots={false}
+        vertical={false}
+      />
+    </View>
+  </Modal>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "grey",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "padding": 15,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "white",
+          "fontWeight": "800",
+        }
+      }
+    >
+      Syncing Data
+    </Text>
+    <CircleSnail
+      animating={true}
+      color={
+        Array [
+          "white",
+        ]
+      }
+      direction="counter-clockwise"
+      hidesWhenStopped={false}
+      size={30}
+      spinDuration={400}
+      strokeCap="round"
+      thickness={3}
+      useNativeDriver={false}
+    />
+  </View>
   <View
     style={
       Object {
@@ -37,7 +156,10 @@ exports[`Settins Screen renders correctly 1`] = `
         }
       }
     >
-      <View
+      <Picker
+        id="picker1"
+        mode="dropdown"
+        onValueChange={[Function]}
         style={
           Object {
             "backgroundColor": "white",
@@ -48,21 +170,12 @@ exports[`Settins Screen renders correctly 1`] = `
           }
         }
       >
-        <RNCPicker
-          items={Array []}
-          numberOfLines={1}
-          onChange={[Function]}
-          selectedIndex={0}
-          style={
-            Array [
-              Object {
-                "height": 216,
-              },
-              undefined,
-            ]
-          }
+        <PickerItem
+          key="PCM"
+          label="PCM"
+          value="PCM"
         />
-      </View>
+      </Picker>
     </View>
   </View>
   <View
@@ -102,153 +215,29 @@ exports[`Settins Screen renders correctly 1`] = `
         }
       }
     >
-      <View
-        style={
-          Array [
-            Object {
-              "alignItems": "center",
-              "justifyContent": "center",
-            },
-            Object {
-              "backgroundColor": "#999",
-              "borderRadius": 35,
-              "height": 70,
-              "width": 70,
-            },
-          ]
-        }
+      <PercentageCircle
+        bgColor="#fff"
+        borderWidth={3}
+        color="#4dd0e1"
+        containerStyle={null}
+        percent={NaN}
+        radius={35}
+        shadowColor="#999"
       >
-        <View
+        <Text
           style={
-            Array [
-              Object {
-                "left": 0,
-                "position": "absolute",
-                "top": 0,
-              },
-              Object {
-                "height": 70,
-                "width": 35,
-              },
-            ]
+            Object {
+              "color": "#4dd0e1",
+              "fontSize": 18,
+            }
           }
         >
-          <View
-            style={
-              Array [
-                Object {
-                  "borderBottomRightRadius": 0,
-                  "borderTopRightRadius": 0,
-                  "left": 0,
-                  "position": "absolute",
-                  "top": 0,
-                },
-                Object {
-                  "backgroundColor": "#4dd0e1",
-                  "borderRadius": 35,
-                  "height": 70,
-                  "overflow": "hidden",
-                  "transform": Array [
-                    Object {
-                      "translateX": 17.5,
-                    },
-                    Object {
-                      "rotate": "NaNdeg",
-                    },
-                    Object {
-                      "translateX": -17.5,
-                    },
-                  ],
-                  "width": 35,
-                },
-              ]
-            }
-          />
-        </View>
-        <View
-          style={
-            Array [
-              Object {
-                "left": 0,
-                "position": "absolute",
-                "top": 0,
-              },
-              Object {
-                "height": 70,
-                "width": 35,
-              },
-            ]
-          }
-        >
-          <View
-            style={
-              Array [
-                Object {
-                  "borderBottomRightRadius": 0,
-                  "borderTopRightRadius": 0,
-                  "left": 0,
-                  "position": "absolute",
-                  "top": 0,
-                },
-                Object {
-                  "backgroundColor": "#999",
-                  "borderRadius": 35,
-                  "height": 70,
-                  "overflow": "hidden",
-                  "transform": Array [
-                    Object {
-                      "translateX": 17.5,
-                    },
-                    Object {
-                      "rotate": "0deg",
-                    },
-                    Object {
-                      "translateX": -17.5,
-                    },
-                  ],
-                  "width": 35,
-                },
-              ]
-            }
-          />
-        </View>
-        <View
-          style={
-            Array [
-              Object {
-                "alignItems": "center",
-                "justifyContent": "center",
-                "overflow": "hidden",
-              },
-              Object {
-                "backgroundColor": "#fff",
-                "borderRadius": 32,
-                "height": 64,
-                "width": 64,
-              },
-            ]
-          }
-        >
-          <Text
-            style={
-              Object {
-                "color": "#4dd0e1",
-                "fontSize": 18,
-              }
-            }
-          />
-        </View>
-      </View>
+          NaN%
+        </Text>
+      </PercentageCircle>
     </View>
   </View>
-  <View
-    style={
-      Object {
-        "borderBottomColor": "#bcbbc1",
-        "borderBottomWidth": 0.5,
-      }
-    }
-  />
+  <Themed.Divider />
   <View
     style={
       Object {
@@ -268,93 +257,20 @@ exports[`Settins Screen renders correctly 1`] = `
        Detailed Report
     </Text>
   </View>
-  <RCTScrollView
+  <FlatList
     data={Array []}
-    getItem={[Function]}
-    getItemCount={[Function]}
-    keyExtractor={[Function]}
-    onContentSizeChange={[Function]}
-    onLayout={[Function]}
-    onMomentumScrollBegin={[Function]}
-    onMomentumScrollEnd={[Function]}
-    onScroll={[Function]}
-    onScrollBeginDrag={[Function]}
-    onScrollEndDrag={[Function]}
-    removeClippedSubviews={false}
     renderItem={[Function]}
-    scrollEventThrottle={50}
-    stickyHeaderIndices={Array []}
-    viewabilityConfigCallbackPairs={Array []}
-  >
-    <View />
-  </RCTScrollView>
-  <View
-    style={
-      Array [
-        Object {
-          "borderRadius": 3,
-          "overflow": "hidden",
-        },
-        Object {
-          "borderRadius": 3,
-        },
-        undefined,
-        false,
-      ]
+  />
+  <Themed.Button
+    buttonStyle={
+      Object {
+        "backgroundColor": "#3743ab",
+      }
     }
-  >
-    <View
-      accessibilityRole="button"
-      accessibilityState={
-        Object {
-          "busy": false,
-          "disabled": true,
-        }
-      }
-      accessible={true}
-      collapsable={false}
-      focusable={true}
-      onClick={[Function]}
-      onResponderGrant={[Function]}
-      onResponderMove={[Function]}
-      onResponderRelease={[Function]}
-      onResponderTerminate={[Function]}
-      onResponderTerminationRequest={[Function]}
-      onStartShouldSetResponder={[Function]}
-      style={
-        Object {
-          "opacity": 1,
-        }
-      }
-    >
-      <View
-        style={
-          Object {
-            "alignItems": "center",
-            "backgroundColor": "hsl(208, 8%, 90%)",
-            "borderColor": "#2089dc",
-            "borderRadius": 3,
-            "borderWidth": 0,
-            "flexDirection": "row",
-            "justifyContent": "center",
-            "padding": 8,
-          }
-        }
-      >
-        <Text
-          style={
-            Object {
-              "color": "hsl(208, 8%, 63%)",
-              "fontSize": 18,
-              "paddingVertical": 1,
-              "textAlign": "center",
-            }
-          }
-        >
-          Download PDF
-        </Text>
-      </View>
-    </View>
-  </View>
+    disabled={true}
+    id="perm"
+    onPress={[Function]}
+    title="Download PDF"
+  />
 </View>
 `;

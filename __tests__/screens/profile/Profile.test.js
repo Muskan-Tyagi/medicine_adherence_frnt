@@ -11,6 +11,13 @@ jest.mock("@react-navigation/native", () => ({
   ...jest.requireActual("@react-navigation/native"),
   useFocusEffect: jest.fn(),
 }));
+jest.mock("@react-navigation/native", () => ({
+  ...jest.requireActual("@react-navigation/native"),
+  useFocusEffect: jest.fn(),
+}));
+jest.mock("@react-native-async-storage/async-storage", () => ({
+  default: jest.fn(),
+}));
 describe('Click send image', () => {
   it('renders correctly', () => {
     const tree = renderer

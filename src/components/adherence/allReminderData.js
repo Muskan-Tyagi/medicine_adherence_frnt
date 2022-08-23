@@ -6,7 +6,7 @@ const allreminderdata = async (med_name) => {
   let reminder_obj;
   let map = new Map();
   let med_id = 0;
-
+/*istanbul ignore next*/
   function reminder_promise() {
     return new Promise(resolve => {
       db.transaction(async function (txn) {

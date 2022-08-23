@@ -1,3 +1,4 @@
+/* istanbul ignore next */
 const AdherencePercentage = (startDate, days, times, currentCount, _name) => {
   return new Promise(res => {
     let tilldatecount = 0;

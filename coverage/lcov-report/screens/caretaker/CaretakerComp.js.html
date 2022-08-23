@@ -23,9 +23,9 @@
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">46.15% </span>
+                <span class="strong">0% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>6/13</span>
+                <span class='fraction'>0/13</span>
             </div>
         
             
@@ -37,16 +37,16 @@
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">16.66% </span>
+                <span class="strong">0% </span>
                 <span class="quiet">Functions</span>
-                <span class='fraction'>1/6</span>
+                <span class='fraction'>0/6</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">46.15% </span>
+                <span class="strong">0% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>6/13</span>
+                <span class='fraction'>0/13</span>
             </div>
         
             
@@ -153,19 +153,19 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -184,10 +184,10 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -231,15 +231,15 @@ import {Caretaker_nurse, Userfriend} from '../../components/caretaker/allIcons';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import styles from './caretakerStyles/CaretakerComStyles';
 &nbsp;
-export default function Caretakercomp({navigation}) {
-  const [index, setIndex] = React.useState(0);
-  const loginFnc = <span class="fstat-no" title="function not covered" >()</span> =&gt; {
+export default function <span class="fstat-no" title="function not covered" >Caretakercomp(</span>{navigation}) {
+  const [index, setIndex] = <span class="cstat-no" title="statement not covered" >React.useState(0);</span>
+  const loginFnc = <span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" >()</span> =&gt; {</span>
 <span class="cstat-no" title="statement not covered" >    navigation.navigate('Login');</span>
   }
-  const homeFnc = <span class="fstat-no" title="function not covered" >()</span> =&gt; {
+  const homeFnc = <span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" >()</span> =&gt; {</span>
 <span class="cstat-no" title="statement not covered" >    navigation.navigate('Home');</span>
   }
-  useFocusEffect(<span class="fstat-no" title="function not covered" >()</span> =&gt; {
+<span class="cstat-no" title="statement not covered" >  useFocusEffect(<span class="fstat-no" title="function not covered" >()</span> =&gt; {</span>
     async function <span class="fstat-no" title="function not covered" >checkforlog(</span>) {
       const checkforlogin = <span class="cstat-no" title="statement not covered" >await AsyncStorage.getItem('user_id');</span>
 <span class="cstat-no" title="statement not covered" >      if (checkforlogin === null) {</span>
@@ -263,10 +263,10 @@ export default function Caretakercomp({navigation}) {
 &nbsp;
 <span class="cstat-no" title="statement not covered" >    checkforlog();</span>
   });
-  const handleChange = <span class="fstat-no" title="function not covered" >e </span>=&gt; {
+  const handleChange = <span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" >e </span>=&gt; {</span>
 <span class="cstat-no" title="statement not covered" >    setIndex(e);</span>
   };
-  return (
+<span class="cstat-no" title="statement not covered" >  return (</span>
     &lt;&gt;
       &lt;Tab
         id='change'
@@ -307,7 +307,7 @@ export default function Caretakercomp({navigation}) {
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
-                at 2022-08-19T05:44:46.435Z
+                at 2022-08-20T06:46:50.070Z
             </div>
         <script src="../../prettify.js"></script>
         <script>

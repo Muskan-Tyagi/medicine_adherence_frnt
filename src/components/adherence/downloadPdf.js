@@ -1,16 +1,16 @@
 import { API_URL } from '../../repositories/var';
 import RNFetchBlob from 'rn-fetch-blob';
 import Logger from '../logger';
-
+   /* istanbul ignore next */
 const DownloadPdf = async (globalmedId) => {
   const { config } = RNFetchBlob;
   const date = new Date();
 
   let downloaddir = RNFetchBlob.fs.dirs.DownloadDir;
-  /*istanbul ignore next*/
   let downloadPath = `${downloaddir}/report_${Math.floor(
     date.getTime() + date.getSeconds() / 2,
   )}.pdf`;
+ 
   const options = {
     fileCache: true,
     addAndroidDownloads: {

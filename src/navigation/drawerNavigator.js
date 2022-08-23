@@ -109,7 +109,6 @@ const DrawerNavigator = navigation => {
         }}
       />
     </Drawer.Navigator>
-
   );
 };
 

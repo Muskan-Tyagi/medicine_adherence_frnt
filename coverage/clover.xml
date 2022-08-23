@@ -1,51 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1660905406355" clover="3.2.0">
-  <project timestamp="1660905406355" name="All files">
-    <metrics statements="1585" coveredstatements="759" conditionals="314" coveredconditionals="123" methods="493" coveredmethods="205" elements="2392" coveredelements="1087" complexity="0" loc="1585" ncloc="1585" packages="48" files="139" classes="139"/>
+<coverage generated="1661241718559" clover="3.2.0">
+  <project timestamp="1661241718559" name="All files">
+    <metrics statements="1306" coveredstatements="722" conditionals="274" coveredconditionals="127" methods="416" coveredmethods="195" elements="1996" coveredelements="1044" complexity="0" loc="1306" ncloc="1306" packages="46" files="129" classes="129"/>
     <package name="assests.images">
       <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="Medstick_1.png" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/assests/images/Medstick_1.png">
+      <file name="Medstick_1.png" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/assests/images/Medstick_1.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="3" type="stmt"/>
+        <line num="1" count="2" type="stmt"/>
       </file>
-      <file name="noImages.png" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/assests/images/noImages.png">
+      <file name="noImages.png" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/assests/images/noImages.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
       </file>
-      <file name="nomeds.png" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/assests/images/nomeds.png">
+      <file name="nomeds.png" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/assests/images/nomeds.png">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+      </file>
+      <file name="nopatientreq.png" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/assests/images/nopatientreq.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="2" type="stmt"/>
       </file>
-      <file name="nopatientreq.png" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/assests/images/nopatientreq.png">
+      <file name="nopatients.png" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/assests/images/nopatients.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="2" type="stmt"/>
       </file>
-      <file name="nopatients.png" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/assests/images/nopatients.png">
+      <file name="noreminders.png" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/assests/images/noreminders.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="2" type="stmt"/>
+        <line num="1" count="1" type="stmt"/>
       </file>
-      <file name="noreminders.png" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/assests/images/noreminders.png">
-        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="2" type="stmt"/>
-      </file>
-      <file name="searchcaretaker.png" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/assests/images/searchcaretaker.png">
+      <file name="searchcaretaker.png" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/assests/images/searchcaretaker.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
       </file>
     </package>
     <package name="src.components">
       <metrics statements="22" coveredstatements="19" conditionals="2" coveredconditionals="1" methods="10" coveredmethods="6"/>
-      <file name="ProfileHeader.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/components/ProfileHeader.js">
+      <file name="ProfileHeader.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/components/ProfileHeader.js">
         <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="8" count="4" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
         <line num="9" count="1" type="stmt"/>
         <line num="10" count="1" type="stmt"/>
         <line num="11" count="1" type="stmt"/>
         <line num="32" count="1" type="stmt"/>
       </file>
-      <file name="customHeader.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/components/customHeader.js">
+      <file name="customHeader.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/components/customHeader.js">
         <metrics statements="12" coveredstatements="9" conditionals="2" coveredconditionals="1" methods="7" coveredmethods="3"/>
-        <line num="17" count="3" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
         <line num="19" count="3" type="stmt"/>
         <line num="25" count="3" type="stmt"/>
         <line num="44" count="3" type="stmt"/>
@@ -58,129 +58,45 @@
         <line num="84" count="0" type="stmt"/>
         <line num="89" count="3" type="stmt"/>
       </file>
-      <file name="logger.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/components/logger.js">
+      <file name="logger.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/components/logger.js">
         <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
-        <line num="2" count="42" type="stmt"/>
-        <line num="18" count="42" type="stmt"/>
-        <line num="20" count="34" type="stmt"/>
+        <line num="2" count="38" type="stmt"/>
+        <line num="18" count="38" type="stmt"/>
+        <line num="20" count="37" type="stmt"/>
         <line num="23" count="33" type="stmt"/>
-        <line num="26" count="42" type="stmt"/>
+        <line num="26" count="38" type="stmt"/>
       </file>
     </package>
     <package name="src.components.adherence">
-      <metrics statements="62" coveredstatements="15" conditionals="4" coveredconditionals="0" methods="14" coveredmethods="6"/>
-      <file name="adherencePercentage.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/components/adherence/adherencePercentage.js">
-        <metrics statements="19" coveredstatements="4" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="2"/>
-        <line num="1" count="7" type="stmt"/>
-        <line num="2" count="1" type="stmt"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="4" count="1" type="stmt"/>
-        <line num="5" count="0" type="stmt"/>
-        <line num="6" count="0" type="stmt"/>
-        <line num="7" count="0" type="stmt"/>
-        <line num="8" count="0" type="stmt"/>
-        <line num="10" count="0" type="stmt"/>
-        <line num="11" count="0" type="stmt"/>
-        <line num="16" count="0" type="stmt"/>
-        <line num="22" count="0" type="stmt"/>
-        <line num="23" count="0" type="stmt"/>
-        <line num="24" count="0" type="stmt"/>
-        <line num="25" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="26" count="0" type="stmt"/>
-        <line num="28" count="0" type="stmt"/>
-        <line num="29" count="0" type="stmt"/>
-        <line num="31" count="0" type="stmt"/>
+      <metrics statements="7" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="adherencePercentage.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/components/adherence/adherencePercentage.js">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       </file>
-      <file name="allReminderData.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/components/adherence/allReminderData.js">
-        <metrics statements="25" coveredstatements="7" conditionals="2" coveredconditionals="0" methods="7" coveredmethods="3"/>
-        <line num="4" count="3" type="stmt"/>
-        <line num="5" count="3" type="stmt"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="8" count="1" type="stmt"/>
-        <line num="11" count="1" type="stmt"/>
-        <line num="12" count="1" type="stmt"/>
-        <line num="13" count="0" type="stmt"/>
-        <line num="17" count="0" type="stmt"/>
-        <line num="21" count="0" type="stmt"/>
-        <line num="22" count="0" type="stmt"/>
-        <line num="23" count="0" type="stmt"/>
-        <line num="27" count="0" type="stmt"/>
-        <line num="28" count="0" type="stmt"/>
-        <line num="30" count="0" type="stmt"/>
-        <line num="31" count="0" type="stmt"/>
-        <line num="34" count="0" type="stmt"/>
-        <line num="40" count="0" type="stmt"/>
-        <line num="41" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="42" count="0" type="stmt"/>
-        <line num="44" count="0" type="stmt"/>
-        <line num="47" count="0" type="stmt"/>
-        <line num="49" count="0" type="stmt"/>
-        <line num="57" count="1" type="stmt"/>
+      <file name="allReminderData.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/components/adherence/allReminderData.js">
+        <metrics statements="7" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="57" count="3" type="stmt"/>
         <line num="59" count="0" type="stmt"/>
         <line num="60" count="0" type="stmt"/>
       </file>
-      <file name="downloadPdf.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/components/adherence/downloadPdf.js">
-        <metrics statements="18" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="1"/>
-        <line num="5" count="4" type="stmt"/>
-        <line num="6" count="1" type="stmt"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="9" count="1" type="stmt"/>
-        <line num="14" count="0" type="stmt"/>
-        <line num="24" count="0" type="stmt"/>
-        <line num="25" count="0" type="stmt"/>
-        <line num="27" count="0" type="stmt"/>
-        <line num="28" count="0" type="stmt"/>
-        <line num="29" count="0" type="stmt"/>
-        <line num="31" count="0" type="stmt"/>
-        <line num="32" count="0" type="stmt"/>
-        <line num="35" count="0" type="stmt"/>
-        <line num="39" count="0" type="stmt"/>
-        <line num="40" count="0" type="stmt"/>
-        <line num="42" count="0" type="stmt"/>
-        <line num="44" count="0" type="stmt"/>
-        <line num="45" count="0" type="stmt"/>
+      <file name="downloadPdf.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/components/adherence/downloadPdf.js">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       </file>
     </package>
     <package name="src.components.alarm">
-      <metrics statements="28" coveredstatements="20" conditionals="8" coveredconditionals="4" methods="6" coveredmethods="4"/>
-      <file name="pushNotificationConfig.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/components/alarm/pushNotificationConfig.js">
-        <metrics statements="26" coveredstatements="18" conditionals="8" coveredconditionals="4" methods="6" coveredmethods="4"/>
-        <line num="4" count="1" type="stmt"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="8" count="0" type="stmt"/>
-        <line num="9" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="10" count="0" type="stmt"/>
-        <line num="12" count="0" type="stmt"/>
-        <line num="13" count="0" type="stmt"/>
-        <line num="14" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="15" count="0" type="stmt"/>
-        <line num="23" count="3" type="stmt"/>
-        <line num="24" count="3" type="cond" truecount="2" falsecount="0"/>
-        <line num="25" count="1" type="stmt"/>
-        <line num="26" count="1" type="stmt"/>
-        <line num="27" count="1" type="stmt"/>
-        <line num="28" count="2" type="cond" truecount="2" falsecount="0"/>
-        <line num="29" count="1" type="stmt"/>
-        <line num="30" count="1" type="stmt"/>
-        <line num="32" count="1" type="stmt"/>
-        <line num="33" count="1" type="stmt"/>
-        <line num="37" count="1" type="stmt"/>
-        <line num="38" count="1" type="stmt"/>
-        <line num="39" count="1" type="stmt"/>
-        <line num="61" count="1" type="stmt"/>
-        <line num="66" count="2" type="stmt"/>
-        <line num="68" count="2" type="stmt"/>
-        <line num="78" count="0" type="stmt"/>
-      </file>
-      <file name="timeData.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/components/alarm/timeData.js">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="timeData.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/components/alarm/timeData.js">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="3" type="stmt"/>
-        <line num="33" count="3" type="stmt"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="33" count="2" type="stmt"/>
       </file>
     </package>
     <package name="src.components.caretaker">
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
-      <file name="allIcons.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/components/caretaker/allIcons.js">
+      <file name="allIcons.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/components/caretaker/allIcons.js">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
         <line num="6" count="1" type="stmt"/>
         <line num="12" count="3" type="stmt"/>
@@ -189,16 +105,16 @@
     </package>
     <package name="src.components.componentStyles">
       <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="styles.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/components/componentStyles/styles.js">
+      <file name="styles.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/components/componentStyles/styles.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="3" count="4" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
       </file>
     </package>
     <package name="src.components.organisms">
       <metrics statements="15" coveredstatements="14" conditionals="4" coveredconditionals="4" methods="6" coveredmethods="6"/>
-      <file name="medicineHistoryList.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/components/organisms/medicineHistoryList.js">
+      <file name="medicineHistoryList.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/components/organisms/medicineHistoryList.js">
         <metrics statements="7" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
-        <line num="8" count="3" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
         <line num="9" count="3" type="stmt"/>
         <line num="10" count="3" type="stmt"/>
         <line num="23" count="2" type="stmt"/>
@@ -206,9 +122,9 @@
         <line num="35" count="3" type="stmt"/>
         <line num="45" count="3" type="stmt"/>
       </file>
-      <file name="medicineTime.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/components/organisms/medicineTime.js">
+      <file name="medicineTime.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/components/organisms/medicineTime.js">
         <metrics statements="8" coveredstatements="8" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
-        <line num="6" count="2" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
         <line num="7" count="4" type="stmt"/>
         <line num="8" count="4" type="stmt"/>
         <line num="9" count="4" type="stmt"/>
@@ -220,7 +136,7 @@
     </package>
     <package name="src.connection">
       <metrics statements="15" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="0"/>
-      <file name="checkConnectivity.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/connection/checkConnectivity.js">
+      <file name="checkConnectivity.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/connection/checkConnectivity.js">
         <metrics statements="7" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
         <line num="3" count="2" type="stmt"/>
         <line num="4" count="0" type="stmt"/>
@@ -230,9 +146,9 @@
         <line num="8" count="0" type="stmt"/>
         <line num="11" count="0" type="stmt"/>
       </file>
-      <file name="networkCalls.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/connection/networkCalls.js">
+      <file name="networkCalls.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/connection/networkCalls.js">
         <metrics statements="8" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
-        <line num="4" count="2" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
         <line num="6" count="0" type="stmt"/>
         <line num="7" count="0" type="stmt"/>
         <line num="17" count="0" type="stmt"/>
@@ -244,61 +160,35 @@
     </package>
     <package name="src.constants">
       <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="apiUrl.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/constants/apiUrl.js">
+      <file name="apiUrl.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/constants/apiUrl.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="3" count="25" type="stmt"/>
-      </file>
-    </package>
-    <package name="src.navigation">
-      <metrics statements="20" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="10" coveredmethods="1"/>
-      <file name="drawerNavigator.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/navigation/drawerNavigator.js">
-        <metrics statements="20" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="10" coveredmethods="1"/>
-        <line num="14" count="2" type="stmt"/>
-        <line num="15" count="2" type="stmt"/>
-        <line num="16" count="2" type="stmt"/>
-        <line num="17" count="0" type="stmt"/>
-        <line num="19" count="2" type="stmt"/>
-        <line num="20" count="0" type="stmt"/>
-        <line num="26" count="2" type="stmt"/>
-        <line num="27" count="0" type="stmt"/>
-        <line num="29" count="2" type="stmt"/>
-        <line num="30" count="0" type="stmt"/>
-        <line num="32" count="2" type="stmt"/>
-        <line num="33" count="0" type="stmt"/>
-        <line num="35" count="2" type="stmt"/>
-        <line num="36" count="0" type="stmt"/>
-        <line num="38" count="2" type="stmt"/>
-        <line num="39" count="0" type="stmt"/>
-        <line num="41" count="2" type="stmt"/>
-        <line num="42" count="0" type="stmt"/>
-        <line num="44" count="2" type="stmt"/>
-        <line num="49" count="0" type="stmt"/>
+        <line num="3" count="24" type="stmt"/>
       </file>
     </package>
     <package name="src.redux.actions">
       <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="allTypes.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/redux/actions/allTypes.js">
+      <file name="allTypes.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/redux/actions/allTypes.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="61" type="stmt"/>
+        <line num="1" count="60" type="stmt"/>
       </file>
     </package>
     <package name="src.redux.actions.adherence">
       <metrics statements="26" coveredstatements="26" conditionals="0" coveredconditionals="0" methods="15" coveredmethods="15"/>
-      <file name="downloadPdfActions.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/redux/actions/adherence/downloadPdfActions.js">
+      <file name="downloadPdfActions.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/redux/actions/adherence/downloadPdfActions.js">
         <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
         <line num="4" count="1" type="stmt"/>
         <line num="11" count="3" type="stmt"/>
         <line num="18" count="3" type="stmt"/>
         <line num="24" count="2" type="stmt"/>
       </file>
-      <file name="getMedHistoryActions.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/redux/actions/adherence/getMedHistoryActions.js">
+      <file name="getMedHistoryActions.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/redux/actions/adherence/getMedHistoryActions.js">
         <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
         <line num="4" count="1" type="stmt"/>
         <line num="11" count="3" type="stmt"/>
         <line num="18" count="3" type="stmt"/>
         <line num="24" count="2" type="stmt"/>
       </file>
-      <file name="medImagesActions.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/redux/actions/adherence/medImagesActions.js">
+      <file name="medImagesActions.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/redux/actions/adherence/medImagesActions.js">
         <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
         <line num="6" count="1" type="stmt"/>
         <line num="12" count="3" type="stmt"/>
@@ -307,7 +197,7 @@
         <line num="20" count="3" type="stmt"/>
         <line num="26" count="2" type="stmt"/>
       </file>
-      <file name="syncHistoryActions.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/redux/actions/adherence/syncHistoryActions.js">
+      <file name="syncHistoryActions.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/redux/actions/adherence/syncHistoryActions.js">
         <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
         <line num="4" count="1" type="stmt"/>
         <line num="10" count="3" type="stmt"/>
@@ -316,7 +206,7 @@
         <line num="18" count="3" type="stmt"/>
         <line num="24" count="2" type="stmt"/>
       </file>
-      <file name="syncMedActions.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/redux/actions/adherence/syncMedActions.js">
+      <file name="syncMedActions.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/redux/actions/adherence/syncMedActions.js">
         <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
         <line num="5" count="1" type="stmt"/>
         <line num="11" count="3" type="stmt"/>
@@ -328,23 +218,23 @@
     </package>
     <package name="src.redux.actions.caretaker">
       <metrics statements="20" coveredstatements="20" conditionals="0" coveredconditionals="0" methods="12" coveredmethods="12"/>
-      <file name="CaretakerActions.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/redux/actions/caretaker/CaretakerActions.js">
+      <file name="CaretakerActions.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/redux/actions/caretaker/CaretakerActions.js">
         <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
         <line num="5" count="1" type="stmt"/>
         <line num="11" count="3" type="stmt"/>
         <line num="12" count="3" type="stmt"/>
         <line num="18" count="3" type="stmt"/>
         <line num="19" count="3" type="stmt"/>
-        <line num="25" count="6" type="stmt"/>
+        <line num="25" count="5" type="stmt"/>
       </file>
-      <file name="emailCaretakerActions.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/redux/actions/caretaker/emailCaretakerActions.js">
+      <file name="emailCaretakerActions.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/redux/actions/caretaker/emailCaretakerActions.js">
         <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
         <line num="4" count="1" type="stmt"/>
-        <line num="11" count="3" type="stmt"/>
-        <line num="18" count="3" type="stmt"/>
-        <line num="24" count="2" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
+        <line num="16" count="3" type="stmt"/>
+        <line num="22" count="2" type="stmt"/>
       </file>
-      <file name="reqCaretakerActions.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/redux/actions/caretaker/reqCaretakerActions.js">
+      <file name="reqCaretakerActions.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/redux/actions/caretaker/reqCaretakerActions.js">
         <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
         <line num="5" count="1" type="stmt"/>
         <line num="11" count="3" type="stmt"/>
@@ -353,7 +243,7 @@
         <line num="19" count="3" type="stmt"/>
         <line num="25" count="2" type="stmt"/>
       </file>
-      <file name="sendImageActions.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/redux/actions/caretaker/sendImageActions.js">
+      <file name="sendImageActions.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/redux/actions/caretaker/sendImageActions.js">
         <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
         <line num="4" count="1" type="stmt"/>
         <line num="11" count="3" type="stmt"/>
@@ -363,7 +253,7 @@
     </package>
     <package name="src.redux.actions.login">
       <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
-      <file name="loginActions.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/redux/actions/login/loginActions.js">
+      <file name="loginActions.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/redux/actions/login/loginActions.js">
         <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
         <line num="4" count="1" type="stmt"/>
         <line num="10" count="3" type="stmt"/>
@@ -375,28 +265,28 @@
     </package>
     <package name="src.redux.actions.patient">
       <metrics statements="30" coveredstatements="30" conditionals="0" coveredconditionals="0" methods="18" coveredmethods="18"/>
-      <file name="PatientActions.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/redux/actions/patient/PatientActions.js">
+      <file name="PatientActions.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/redux/actions/patient/PatientActions.js">
         <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
         <line num="4" count="1" type="stmt"/>
         <line num="10" count="3" type="stmt"/>
         <line num="16" count="3" type="stmt"/>
-        <line num="22" count="7" type="stmt"/>
+        <line num="22" count="5" type="stmt"/>
       </file>
-      <file name="PatientProfileActions.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/redux/actions/patient/PatientProfileActions.js">
-        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
-        <line num="4" count="1" type="stmt"/>
-        <line num="10" count="3" type="stmt"/>
-        <line num="16" count="3" type="stmt"/>
-        <line num="22" count="2" type="stmt"/>
-      </file>
-      <file name="notifyPatientActions.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/redux/actions/patient/notifyPatientActions.js">
+      <file name="PatientProfileActions.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/redux/actions/patient/PatientProfileActions.js">
         <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
         <line num="4" count="1" type="stmt"/>
         <line num="10" count="3" type="stmt"/>
         <line num="16" count="3" type="stmt"/>
         <line num="22" count="2" type="stmt"/>
       </file>
-      <file name="patientReqAcceptActions.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/redux/actions/patient/patientReqAcceptActions.js">
+      <file name="notifyPatientActions.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/redux/actions/patient/notifyPatientActions.js">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
+        <line num="16" count="3" type="stmt"/>
+        <line num="22" count="2" type="stmt"/>
+      </file>
+      <file name="patientReqAcceptActions.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/redux/actions/patient/patientReqAcceptActions.js">
         <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
         <line num="5" count="1" type="stmt"/>
         <line num="11" count="3" type="stmt"/>
@@ -405,40 +295,28 @@
         <line num="19" count="3" type="stmt"/>
         <line num="25" count="2" type="stmt"/>
       </file>
-      <file name="patientReqActions.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/redux/actions/patient/patientReqActions.js">
+      <file name="patientReqActions.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/redux/actions/patient/patientReqActions.js">
         <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
-        <line num="6" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="11" count="3" type="stmt"/>
         <line num="12" count="3" type="stmt"/>
-        <line num="13" count="3" type="stmt"/>
+        <line num="18" count="3" type="stmt"/>
         <line num="19" count="3" type="stmt"/>
-        <line num="20" count="3" type="stmt"/>
-        <line num="26" count="2" type="stmt"/>
+        <line num="25" count="2" type="stmt"/>
       </file>
-      <file name="patientReqDeleteActions.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/redux/actions/patient/patientReqDeleteActions.js">
+      <file name="patientReqDeleteActions.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/redux/actions/patient/patientReqDeleteActions.js">
         <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
-        <line num="6" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="11" count="3" type="stmt"/>
         <line num="12" count="3" type="stmt"/>
-        <line num="13" count="3" type="stmt"/>
+        <line num="18" count="3" type="stmt"/>
         <line num="19" count="3" type="stmt"/>
-        <line num="20" count="3" type="stmt"/>
-        <line num="26" count="2" type="stmt"/>
+        <line num="25" count="2" type="stmt"/>
       </file>
     </package>
     <package name="src.redux.actions.profile">
       <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
-      <file name="ProfileActions.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/redux/actions/profile/ProfileActions.js">
-        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
-        <line num="6" count="1" type="stmt"/>
-        <line num="12" count="3" type="stmt"/>
-        <line num="13" count="3" type="stmt"/>
-        <line num="19" count="3" type="stmt"/>
-        <line num="20" count="3" type="stmt"/>
-        <line num="26" count="2" type="stmt"/>
-      </file>
-    </package>
-    <package name="src.redux.actions.signup">
-      <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
-      <file name="signupActions.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/redux/actions/signup/signupActions.js">
+      <file name="ProfileActions.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/redux/actions/profile/ProfileActions.js">
         <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
         <line num="5" count="1" type="stmt"/>
         <line num="11" count="3" type="stmt"/>
@@ -448,11 +326,23 @@
         <line num="25" count="2" type="stmt"/>
       </file>
     </package>
+    <package name="src.redux.actions.signup">
+      <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+      <file name="signupActions.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/redux/actions/signup/signupActions.js">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
+        <line num="11" count="3" type="stmt"/>
+        <line num="17" count="3" type="stmt"/>
+        <line num="18" count="3" type="stmt"/>
+        <line num="24" count="2" type="stmt"/>
+      </file>
+    </package>
     <package name="src.redux.apis">
       <metrics statements="49" coveredstatements="38" conditionals="0" coveredconditionals="0" methods="18" coveredmethods="16"/>
-      <file name="access.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/redux/apis/access.js">
+      <file name="access.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/redux/apis/access.js">
         <metrics statements="11" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
-        <line num="2" count="4" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
         <line num="4" count="0" type="stmt"/>
         <line num="5" count="0" type="stmt"/>
         <line num="6" count="0" type="stmt"/>
@@ -464,9 +354,9 @@
         <line num="24" count="0" type="stmt"/>
         <line num="34" count="0" type="stmt"/>
       </file>
-      <file name="adherence.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/redux/apis/adherence.js">
+      <file name="adherence.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/redux/apis/adherence.js">
         <metrics statements="12" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="5"/>
-        <line num="4" count="8" type="stmt"/>
+        <line num="4" count="7" type="stmt"/>
         <line num="6" count="1" type="stmt"/>
         <line num="7" count="1" type="stmt"/>
         <line num="14" count="0" type="stmt"/>
@@ -479,11 +369,11 @@
         <line num="29" count="1" type="stmt"/>
         <line num="30" count="1" type="stmt"/>
       </file>
-      <file name="axios.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/redux/apis/axios.js">
+      <file name="axios.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/redux/apis/axios.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="4" count="22" type="stmt"/>
+        <line num="4" count="21" type="stmt"/>
       </file>
-      <file name="careTaker.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/redux/apis/careTaker.js">
+      <file name="careTaker.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/redux/apis/careTaker.js">
         <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
         <line num="3" count="5" type="stmt"/>
         <line num="5" count="1" type="stmt"/>
@@ -495,7 +385,7 @@
         <line num="21" count="1" type="stmt"/>
         <line num="24" count="1" type="stmt"/>
       </file>
-      <file name="patient.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/redux/apis/patient.js">
+      <file name="patient.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/redux/apis/patient.js">
         <metrics statements="13" coveredstatements="13" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="6"/>
         <line num="3" count="7" type="stmt"/>
         <line num="5" count="1" type="stmt"/>
@@ -511,7 +401,7 @@
         <line num="25" count="1" type="stmt"/>
         <line num="26" count="1" type="stmt"/>
       </file>
-      <file name="profile.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/redux/apis/profile.js">
+      <file name="profile.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/redux/apis/profile.js">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="3" count="2" type="stmt"/>
         <line num="5" count="1" type="stmt"/>
@@ -520,7 +410,7 @@
     </package>
     <package name="src.redux.reducers.adherence">
       <metrics statements="35" coveredstatements="35" conditionals="25" coveredconditionals="25" methods="5" coveredmethods="5"/>
-      <file name="downloadPdfReducer.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/redux/reducers/adherence/downloadPdfReducer.js">
+      <file name="downloadPdfReducer.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/redux/reducers/adherence/downloadPdfReducer.js">
         <metrics statements="7" coveredstatements="7" conditionals="5" coveredconditionals="5" methods="1" coveredmethods="1"/>
         <line num="2" count="1" type="stmt"/>
         <line num="7" count="1" type="cond" truecount="1" falsecount="0"/>
@@ -530,7 +420,7 @@
         <line num="14" count="1" type="stmt"/>
         <line num="16" count="1" type="stmt"/>
       </file>
-      <file name="getMedHistoryReducer.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/redux/reducers/adherence/getMedHistoryReducer.js">
+      <file name="getMedHistoryReducer.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/redux/reducers/adherence/getMedHistoryReducer.js">
         <metrics statements="7" coveredstatements="7" conditionals="5" coveredconditionals="5" methods="1" coveredmethods="1"/>
         <line num="2" count="1" type="stmt"/>
         <line num="7" count="1" type="cond" truecount="1" falsecount="0"/>
@@ -540,7 +430,7 @@
         <line num="14" count="1" type="stmt"/>
         <line num="16" count="1" type="stmt"/>
       </file>
-      <file name="medImagesReducer.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/redux/reducers/adherence/medImagesReducer.js">
+      <file name="medImagesReducer.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/redux/reducers/adherence/medImagesReducer.js">
         <metrics statements="7" coveredstatements="7" conditionals="5" coveredconditionals="5" methods="1" coveredmethods="1"/>
         <line num="2" count="1" type="stmt"/>
         <line num="7" count="1" type="cond" truecount="1" falsecount="0"/>
@@ -550,7 +440,7 @@
         <line num="14" count="1" type="stmt"/>
         <line num="16" count="1" type="stmt"/>
       </file>
-      <file name="syncHistoryReducer.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/redux/reducers/adherence/syncHistoryReducer.js">
+      <file name="syncHistoryReducer.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/redux/reducers/adherence/syncHistoryReducer.js">
         <metrics statements="7" coveredstatements="7" conditionals="5" coveredconditionals="5" methods="1" coveredmethods="1"/>
         <line num="2" count="1" type="stmt"/>
         <line num="7" count="1" type="cond" truecount="1" falsecount="0"/>
@@ -560,7 +450,7 @@
         <line num="14" count="1" type="stmt"/>
         <line num="16" count="1" type="stmt"/>
       </file>
-      <file name="syncMedReducers.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/redux/reducers/adherence/syncMedReducers.js">
+      <file name="syncMedReducers.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/redux/reducers/adherence/syncMedReducers.js">
         <metrics statements="7" coveredstatements="7" conditionals="5" coveredconditionals="5" methods="1" coveredmethods="1"/>
         <line num="2" count="1" type="stmt"/>
         <line num="7" count="1" type="cond" truecount="1" falsecount="0"/>
@@ -573,7 +463,7 @@
     </package>
     <package name="src.redux.reducers.caretaker">
       <metrics statements="28" coveredstatements="28" conditionals="20" coveredconditionals="20" methods="4" coveredmethods="4"/>
-      <file name="CareTakerReducer.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/redux/reducers/caretaker/CareTakerReducer.js">
+      <file name="CareTakerReducer.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/redux/reducers/caretaker/CareTakerReducer.js">
         <metrics statements="7" coveredstatements="7" conditionals="5" coveredconditionals="5" methods="1" coveredmethods="1"/>
         <line num="2" count="1" type="stmt"/>
         <line num="7" count="1" type="cond" truecount="1" falsecount="0"/>
@@ -583,7 +473,7 @@
         <line num="14" count="1" type="stmt"/>
         <line num="16" count="1" type="stmt"/>
       </file>
-      <file name="emailCaretakerReducer.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/redux/reducers/caretaker/emailCaretakerReducer.js">
+      <file name="emailCaretakerReducer.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/redux/reducers/caretaker/emailCaretakerReducer.js">
         <metrics statements="7" coveredstatements="7" conditionals="5" coveredconditionals="5" methods="1" coveredmethods="1"/>
         <line num="2" count="1" type="stmt"/>
         <line num="7" count="1" type="cond" truecount="1" falsecount="0"/>
@@ -593,7 +483,7 @@
         <line num="14" count="1" type="stmt"/>
         <line num="16" count="1" type="stmt"/>
       </file>
-      <file name="reqCaretakerReducer.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/redux/reducers/caretaker/reqCaretakerReducer.js">
+      <file name="reqCaretakerReducer.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/redux/reducers/caretaker/reqCaretakerReducer.js">
         <metrics statements="7" coveredstatements="7" conditionals="5" coveredconditionals="5" methods="1" coveredmethods="1"/>
         <line num="2" count="1" type="stmt"/>
         <line num="7" count="1" type="cond" truecount="1" falsecount="0"/>
@@ -603,7 +493,7 @@
         <line num="14" count="1" type="stmt"/>
         <line num="16" count="1" type="stmt"/>
       </file>
-      <file name="sendImageReducers.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/redux/reducers/caretaker/sendImageReducers.js">
+      <file name="sendImageReducers.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/redux/reducers/caretaker/sendImageReducers.js">
         <metrics statements="7" coveredstatements="7" conditionals="5" coveredconditionals="5" methods="1" coveredmethods="1"/>
         <line num="2" count="1" type="stmt"/>
         <line num="7" count="1" type="cond" truecount="1" falsecount="0"/>
@@ -616,7 +506,7 @@
     </package>
     <package name="src.redux.reducers.login">
       <metrics statements="7" coveredstatements="7" conditionals="5" coveredconditionals="5" methods="1" coveredmethods="1"/>
-      <file name="loginReducer.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/redux/reducers/login/loginReducer.js">
+      <file name="loginReducer.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/redux/reducers/login/loginReducer.js">
         <metrics statements="7" coveredstatements="7" conditionals="5" coveredconditionals="5" methods="1" coveredmethods="1"/>
         <line num="2" count="1" type="stmt"/>
         <line num="7" count="1" type="cond" truecount="1" falsecount="0"/>
@@ -629,7 +519,7 @@
     </package>
     <package name="src.redux.reducers.patient">
       <metrics statements="42" coveredstatements="42" conditionals="30" coveredconditionals="30" methods="6" coveredmethods="6"/>
-      <file name="PatientProfileReducer.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/redux/reducers/patient/PatientProfileReducer.js">
+      <file name="PatientProfileReducer.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/redux/reducers/patient/PatientProfileReducer.js">
         <metrics statements="7" coveredstatements="7" conditionals="5" coveredconditionals="5" methods="1" coveredmethods="1"/>
         <line num="2" count="1" type="stmt"/>
         <line num="7" count="1" type="cond" truecount="1" falsecount="0"/>
@@ -639,7 +529,7 @@
         <line num="14" count="1" type="stmt"/>
         <line num="16" count="1" type="stmt"/>
       </file>
-      <file name="PatientReducer.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/redux/reducers/patient/PatientReducer.js">
+      <file name="PatientReducer.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/redux/reducers/patient/PatientReducer.js">
         <metrics statements="7" coveredstatements="7" conditionals="5" coveredconditionals="5" methods="1" coveredmethods="1"/>
         <line num="2" count="1" type="stmt"/>
         <line num="7" count="1" type="cond" truecount="1" falsecount="0"/>
@@ -649,7 +539,7 @@
         <line num="14" count="1" type="stmt"/>
         <line num="16" count="1" type="stmt"/>
       </file>
-      <file name="notifyPatientReducer.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/redux/reducers/patient/notifyPatientReducer.js">
+      <file name="notifyPatientReducer.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/redux/reducers/patient/notifyPatientReducer.js">
         <metrics statements="7" coveredstatements="7" conditionals="5" coveredconditionals="5" methods="1" coveredmethods="1"/>
         <line num="2" count="1" type="stmt"/>
         <line num="7" count="1" type="cond" truecount="1" falsecount="0"/>
@@ -659,7 +549,7 @@
         <line num="14" count="1" type="stmt"/>
         <line num="16" count="1" type="stmt"/>
       </file>
-      <file name="patientReqAcceptReducer.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/redux/reducers/patient/patientReqAcceptReducer.js">
+      <file name="patientReqAcceptReducer.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/redux/reducers/patient/patientReqAcceptReducer.js">
         <metrics statements="7" coveredstatements="7" conditionals="5" coveredconditionals="5" methods="1" coveredmethods="1"/>
         <line num="2" count="1" type="stmt"/>
         <line num="7" count="1" type="cond" truecount="1" falsecount="0"/>
@@ -669,7 +559,7 @@
         <line num="14" count="1" type="stmt"/>
         <line num="16" count="1" type="stmt"/>
       </file>
-      <file name="patientReqDeleteReducer.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/redux/reducers/patient/patientReqDeleteReducer.js">
+      <file name="patientReqDeleteReducer.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/redux/reducers/patient/patientReqDeleteReducer.js">
         <metrics statements="7" coveredstatements="7" conditionals="5" coveredconditionals="5" methods="1" coveredmethods="1"/>
         <line num="2" count="1" type="stmt"/>
         <line num="7" count="1" type="cond" truecount="1" falsecount="0"/>
@@ -679,7 +569,7 @@
         <line num="14" count="1" type="stmt"/>
         <line num="16" count="1" type="stmt"/>
       </file>
-      <file name="patientReqReducers.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/redux/reducers/patient/patientReqReducers.js">
+      <file name="patientReqReducers.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/redux/reducers/patient/patientReqReducers.js">
         <metrics statements="7" coveredstatements="7" conditionals="5" coveredconditionals="5" methods="1" coveredmethods="1"/>
         <line num="2" count="1" type="stmt"/>
         <line num="7" count="1" type="cond" truecount="1" falsecount="0"/>
@@ -692,7 +582,7 @@
     </package>
     <package name="src.redux.reducers.profile">
       <metrics statements="7" coveredstatements="7" conditionals="5" coveredconditionals="5" methods="1" coveredmethods="1"/>
-      <file name="ProfileReducer.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/redux/reducers/profile/ProfileReducer.js">
+      <file name="ProfileReducer.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/redux/reducers/profile/ProfileReducer.js">
         <metrics statements="7" coveredstatements="7" conditionals="5" coveredconditionals="5" methods="1" coveredmethods="1"/>
         <line num="2" count="1" type="stmt"/>
         <line num="7" count="1" type="cond" truecount="1" falsecount="0"/>
@@ -705,7 +595,7 @@
     </package>
     <package name="src.redux.reducers.signup">
       <metrics statements="7" coveredstatements="7" conditionals="5" coveredconditionals="5" methods="1" coveredmethods="1"/>
-      <file name="signupReducer.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/redux/reducers/signup/signupReducer.js">
+      <file name="signupReducer.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/redux/reducers/signup/signupReducer.js">
         <metrics statements="7" coveredstatements="7" conditionals="5" coveredconditionals="5" methods="1" coveredmethods="1"/>
         <line num="2" count="1" type="stmt"/>
         <line num="7" count="1" type="cond" truecount="1" falsecount="0"/>
@@ -718,7 +608,7 @@
     </package>
     <package name="src.redux.sagas.adherence">
       <metrics statements="30" coveredstatements="30" conditionals="0" coveredconditionals="0" methods="10" coveredmethods="10"/>
-      <file name="downloadPdfSaga.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/redux/sagas/adherence/downloadPdfSaga.js">
+      <file name="downloadPdfSaga.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/redux/sagas/adherence/downloadPdfSaga.js">
         <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
         <line num="5" count="2" type="stmt"/>
         <line num="6" count="2" type="stmt"/>
@@ -727,7 +617,7 @@
         <line num="10" count="1" type="stmt"/>
         <line num="14" count="1" type="stmt"/>
       </file>
-      <file name="getMedHistorySaga.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/redux/sagas/adherence/getMedHistorySaga.js">
+      <file name="getMedHistorySaga.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/redux/sagas/adherence/getMedHistorySaga.js">
         <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
         <line num="5" count="2" type="stmt"/>
         <line num="6" count="2" type="stmt"/>
@@ -736,7 +626,7 @@
         <line num="10" count="1" type="stmt"/>
         <line num="14" count="1" type="stmt"/>
       </file>
-      <file name="medImagesSaga.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/redux/sagas/adherence/medImagesSaga.js">
+      <file name="medImagesSaga.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/redux/sagas/adherence/medImagesSaga.js">
         <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
         <line num="5" count="2" type="stmt"/>
         <line num="6" count="2" type="stmt"/>
@@ -745,7 +635,7 @@
         <line num="10" count="1" type="stmt"/>
         <line num="14" count="1" type="stmt"/>
       </file>
-      <file name="syncHistorySaga.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/redux/sagas/adherence/syncHistorySaga.js">
+      <file name="syncHistorySaga.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/redux/sagas/adherence/syncHistorySaga.js">
         <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
         <line num="5" count="2" type="stmt"/>
         <line num="6" count="2" type="stmt"/>
@@ -754,7 +644,7 @@
         <line num="10" count="1" type="stmt"/>
         <line num="14" count="1" type="stmt"/>
       </file>
-      <file name="syncMedSaga.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/redux/sagas/adherence/syncMedSaga.js">
+      <file name="syncMedSaga.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/redux/sagas/adherence/syncMedSaga.js">
         <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
         <line num="5" count="2" type="stmt"/>
         <line num="6" count="2" type="stmt"/>
@@ -766,7 +656,7 @@
     </package>
     <package name="src.redux.sagas.caretaker">
       <metrics statements="24" coveredstatements="24" conditionals="0" coveredconditionals="0" methods="8" coveredmethods="8"/>
-      <file name="CaretakerSaga.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/redux/sagas/caretaker/CaretakerSaga.js">
+      <file name="CaretakerSaga.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/redux/sagas/caretaker/CaretakerSaga.js">
         <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
         <line num="5" count="2" type="stmt"/>
         <line num="6" count="2" type="stmt"/>
@@ -775,7 +665,7 @@
         <line num="10" count="1" type="stmt"/>
         <line num="14" count="1" type="stmt"/>
       </file>
-      <file name="emailCaretakerSaga.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/redux/sagas/caretaker/emailCaretakerSaga.js">
+      <file name="emailCaretakerSaga.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/redux/sagas/caretaker/emailCaretakerSaga.js">
         <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
         <line num="6" count="2" type="stmt"/>
         <line num="7" count="2" type="stmt"/>
@@ -784,7 +674,7 @@
         <line num="11" count="1" type="stmt"/>
         <line num="15" count="1" type="stmt"/>
       </file>
-      <file name="reqCaretakerSaga.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/redux/sagas/caretaker/reqCaretakerSaga.js">
+      <file name="reqCaretakerSaga.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/redux/sagas/caretaker/reqCaretakerSaga.js">
         <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
         <line num="5" count="2" type="stmt"/>
         <line num="6" count="2" type="stmt"/>
@@ -793,7 +683,7 @@
         <line num="10" count="1" type="stmt"/>
         <line num="14" count="1" type="stmt"/>
       </file>
-      <file name="sendImageSaga.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/redux/sagas/caretaker/sendImageSaga.js">
+      <file name="sendImageSaga.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/redux/sagas/caretaker/sendImageSaga.js">
         <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
         <line num="5" count="2" type="stmt"/>
         <line num="6" count="2" type="stmt"/>
@@ -805,7 +695,7 @@
     </package>
     <package name="src.redux.sagas.login">
       <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
-      <file name="loginSaga.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/redux/sagas/login/loginSaga.js">
+      <file name="loginSaga.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/redux/sagas/login/loginSaga.js">
         <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
         <line num="5" count="2" type="stmt"/>
         <line num="6" count="2" type="stmt"/>
@@ -817,7 +707,7 @@
     </package>
     <package name="src.redux.sagas.patient">
       <metrics statements="36" coveredstatements="36" conditionals="0" coveredconditionals="0" methods="12" coveredmethods="12"/>
-      <file name="PatientSaga.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/redux/sagas/patient/PatientSaga.js">
+      <file name="PatientSaga.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/redux/sagas/patient/PatientSaga.js">
         <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
         <line num="5" count="2" type="stmt"/>
         <line num="6" count="2" type="stmt"/>
@@ -826,7 +716,7 @@
         <line num="10" count="1" type="stmt"/>
         <line num="14" count="1" type="stmt"/>
       </file>
-      <file name="notifyPatientSaga.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/redux/sagas/patient/notifyPatientSaga.js">
+      <file name="notifyPatientSaga.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/redux/sagas/patient/notifyPatientSaga.js">
         <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
         <line num="5" count="2" type="stmt"/>
         <line num="6" count="2" type="stmt"/>
@@ -835,7 +725,7 @@
         <line num="10" count="1" type="stmt"/>
         <line num="14" count="1" type="stmt"/>
       </file>
-      <file name="patientProfileSaga.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/redux/sagas/patient/patientProfileSaga.js">
+      <file name="patientProfileSaga.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/redux/sagas/patient/patientProfileSaga.js">
         <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
         <line num="5" count="2" type="stmt"/>
         <line num="6" count="2" type="stmt"/>
@@ -844,7 +734,7 @@
         <line num="10" count="1" type="stmt"/>
         <line num="14" count="1" type="stmt"/>
       </file>
-      <file name="patientReqAcceptSaga.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/redux/sagas/patient/patientReqAcceptSaga.js">
+      <file name="patientReqAcceptSaga.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/redux/sagas/patient/patientReqAcceptSaga.js">
         <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
         <line num="5" count="2" type="stmt"/>
         <line num="6" count="2" type="stmt"/>
@@ -853,7 +743,7 @@
         <line num="10" count="1" type="stmt"/>
         <line num="14" count="1" type="stmt"/>
       </file>
-      <file name="patientReqDeleteSaga.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/redux/sagas/patient/patientReqDeleteSaga.js">
+      <file name="patientReqDeleteSaga.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/redux/sagas/patient/patientReqDeleteSaga.js">
         <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
         <line num="5" count="2" type="stmt"/>
         <line num="6" count="2" type="stmt"/>
@@ -862,7 +752,7 @@
         <line num="10" count="1" type="stmt"/>
         <line num="14" count="1" type="stmt"/>
       </file>
-      <file name="patientReqSaga.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/redux/sagas/patient/patientReqSaga.js">
+      <file name="patientReqSaga.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/redux/sagas/patient/patientReqSaga.js">
         <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
         <line num="5" count="2" type="stmt"/>
         <line num="6" count="2" type="stmt"/>
@@ -874,7 +764,7 @@
     </package>
     <package name="src.redux.sagas.profile">
       <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
-      <file name="ProfileSaga.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/redux/sagas/profile/ProfileSaga.js">
+      <file name="ProfileSaga.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/redux/sagas/profile/ProfileSaga.js">
         <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
         <line num="5" count="2" type="stmt"/>
         <line num="6" count="2" type="stmt"/>
@@ -886,7 +776,7 @@
     </package>
     <package name="src.redux.sagas.signup">
       <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
-      <file name="signupSaga.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/redux/sagas/signup/signupSaga.js">
+      <file name="signupSaga.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/redux/sagas/signup/signupSaga.js">
         <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
         <line num="5" count="2" type="stmt"/>
         <line num="6" count="2" type="stmt"/>
@@ -898,53 +788,53 @@
     </package>
     <package name="src.repositories">
       <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="var.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/repositories/var.js">
+      <file name="var.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/repositories/var.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="37" type="stmt"/>
+        <line num="1" count="34" type="stmt"/>
       </file>
     </package>
     <package name="src.repositories.database">
       <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <file name="globalDb.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/repositories/database/globalDb.js">
+      <file name="globalDb.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/repositories/database/globalDb.js">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="2" count="10" type="stmt"/>
-        <line num="4" count="11" type="stmt"/>
+        <line num="2" count="6" type="stmt"/>
+        <line num="4" count="5" type="stmt"/>
       </file>
-      <file name="queryData.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/repositories/database/queryData.js">
+      <file name="queryData.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/repositories/database/queryData.js">
         <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       </file>
     </package>
     <package name="src.screens">
-      <metrics statements="97" coveredstatements="43" conditionals="14" coveredconditionals="1" methods="41" coveredmethods="16"/>
-      <file name="AboutApp.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/screens/AboutApp.js">
+      <metrics statements="55" coveredstatements="26" conditionals="8" coveredconditionals="1" methods="24" coveredmethods="7"/>
+      <file name="AboutApp.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/screens/AboutApp.js">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="5" count="2" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
         <line num="6" count="2" type="stmt"/>
       </file>
-      <file name="AddMedicine.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/screens/AddMedicine.js">
-        <metrics statements="40" coveredstatements="18" conditionals="8" coveredconditionals="1" methods="17" coveredmethods="5"/>
-        <line num="13" count="5" type="stmt"/>
-        <line num="15" count="5" type="stmt"/>
+      <file name="AddMedicine.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/screens/AddMedicine.js">
+        <metrics statements="40" coveredstatements="12" conditionals="8" coveredconditionals="1" methods="17" coveredmethods="1"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
         <line num="16" count="0" type="stmt"/>
-        <line num="19" count="5" type="stmt"/>
-        <line num="20" count="5" type="stmt"/>
-        <line num="21" count="2" type="stmt"/>
-        <line num="22" count="2" type="stmt"/>
-        <line num="24" count="1" type="stmt"/>
-        <line num="25" count="1" type="stmt"/>
-        <line num="31" count="2" type="stmt"/>
-        <line num="32" count="1" type="stmt"/>
-        <line num="33" count="1" type="stmt"/>
-        <line num="35" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="35" count="0" type="stmt"/>
         <line num="36" count="0" type="stmt"/>
         <line num="41" count="0" type="stmt"/>
         <line num="45" count="0" type="stmt"/>
         <line num="46" count="0" type="stmt"/>
         <line num="49" count="0" type="stmt"/>
-        <line num="56" count="2" type="stmt"/>
-        <line num="57" count="1" type="stmt"/>
+        <line num="56" count="1" type="stmt"/>
+        <line num="57" count="0" type="stmt"/>
         <line num="58" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="63" count="2" type="stmt"/>
+        <line num="63" count="1" type="stmt"/>
         <line num="64" count="0" type="stmt"/>
         <line num="65" count="0" type="stmt"/>
         <line num="66" count="0" type="stmt"/>
@@ -953,42 +843,27 @@
         <line num="69" count="0" type="stmt"/>
         <line num="72" count="0" type="stmt"/>
         <line num="73" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="80" count="2" type="stmt"/>
+        <line num="80" count="1" type="stmt"/>
         <line num="81" count="0" type="stmt"/>
         <line num="82" count="0" type="stmt"/>
         <line num="84" count="0" type="stmt"/>
         <line num="85" count="0" type="stmt"/>
         <line num="88" count="0" type="stmt"/>
         <line num="96" count="0" type="stmt"/>
-        <line num="138" count="2" type="stmt"/>
+        <line num="138" count="1" type="stmt"/>
         <line num="139" count="0" type="stmt"/>
-        <line num="143" count="2" type="stmt"/>
+        <line num="143" count="1" type="stmt"/>
       </file>
-      <file name="HomeScreen.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/screens/HomeScreen.js">
-        <metrics statements="12" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="5"/>
-        <line num="13" count="3" type="stmt"/>
-        <line num="15" count="3" type="stmt"/>
-        <line num="16" count="1" type="stmt"/>
-        <line num="17" count="1" type="stmt"/>
-        <line num="18" count="0" type="stmt"/>
-        <line num="24" count="1" type="stmt"/>
-        <line num="25" count="0" type="stmt"/>
-        <line num="29" count="1" type="stmt"/>
-        <line num="35" count="3" type="stmt"/>
-        <line num="54" count="2" type="stmt"/>
-        <line num="71" count="2" type="stmt"/>
-        <line num="86" count="2" type="stmt"/>
-      </file>
-      <file name="OnboardingScreen.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/screens/OnboardingScreen.js">
+      <file name="OnboardingScreen.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/screens/OnboardingScreen.js">
         <metrics statements="4" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
-        <line num="5" count="2" type="stmt"/>
-        <line num="6" count="2" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
         <line num="7" count="0" type="stmt"/>
-        <line num="9" count="2" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
       </file>
-      <file name="Settings.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/screens/Settings.js">
+      <file name="Settings.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/screens/Settings.js">
         <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
-        <line num="7" count="3" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
         <line num="9" count="4" type="stmt"/>
         <line num="10" count="1" type="stmt"/>
         <line num="11" count="1" type="stmt"/>
@@ -998,65 +873,32 @@
         <line num="24" count="1" type="stmt"/>
         <line num="26" count="4" type="stmt"/>
       </file>
-      <file name="UserMed.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/screens/UserMed.js">
-        <metrics statements="30" coveredstatements="1" conditionals="6" coveredconditionals="0" methods="10" coveredmethods="0"/>
-        <line num="19" count="0" type="stmt"/>
-        <line num="20" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="21" count="0" type="stmt"/>
-        <line num="24" count="0" type="stmt"/>
-        <line num="27" count="0" type="stmt"/>
-        <line num="30" count="0" type="stmt"/>
-        <line num="32" count="0" type="stmt"/>
-        <line num="33" count="0" type="stmt"/>
-        <line num="35" count="3" type="stmt"/>
-        <line num="36" count="0" type="stmt"/>
-        <line num="37" count="0" type="stmt"/>
-        <line num="38" count="0" type="stmt"/>
-        <line num="39" count="0" type="stmt"/>
-        <line num="40" count="0" type="stmt"/>
-        <line num="41" count="0" type="stmt"/>
-        <line num="43" count="0" type="stmt"/>
-        <line num="44" count="0" type="stmt"/>
-        <line num="45" count="0" type="stmt"/>
-        <line num="49" count="0" type="stmt"/>
-        <line num="51" count="0" type="stmt"/>
-        <line num="56" count="0" type="stmt"/>
-        <line num="61" count="0" type="stmt"/>
-        <line num="62" count="0" type="stmt"/>
-        <line num="66" count="0" type="stmt"/>
-        <line num="71" count="0" type="stmt"/>
-        <line num="72" count="0" type="stmt"/>
-        <line num="82" count="0" type="stmt"/>
-        <line num="83" count="0" type="stmt"/>
-        <line num="86" count="0" type="stmt"/>
-        <line num="122" count="0" type="stmt"/>
-      </file>
     </package>
     <package name="src.screens.adherence">
-      <metrics statements="291" coveredstatements="57" conditionals="68" coveredconditionals="9" methods="75" coveredmethods="9"/>
-      <file name="AdherenceHistory.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/screens/adherence/AdherenceHistory.js">
-        <metrics statements="81" coveredstatements="20" conditionals="12" coveredconditionals="4" methods="20" coveredmethods="2"/>
-        <line num="30" count="2" type="stmt"/>
-        <line num="31" count="2" type="stmt"/>
-        <line num="33" count="2" type="stmt"/>
-        <line num="34" count="3" type="stmt"/>
-        <line num="35" count="2" type="stmt"/>
-        <line num="37" count="2" type="stmt"/>
-        <line num="38" count="2" type="stmt"/>
-        <line num="39" count="2" type="stmt"/>
-        <line num="40" count="2" type="stmt"/>
-        <line num="41" count="2" type="stmt"/>
-        <line num="42" count="2" type="stmt"/>
-        <line num="43" count="2" type="stmt"/>
-        <line num="44" count="2" type="stmt"/>
-        <line num="45" count="2" type="stmt"/>
+      <metrics statements="244" coveredstatements="80" conditionals="54" coveredconditionals="16" methods="66" coveredmethods="21"/>
+      <file name="AdherenceHistory.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/screens/adherence/AdherenceHistory.js">
+        <metrics statements="81" coveredstatements="38" conditionals="12" coveredconditionals="8" methods="20" coveredmethods="12"/>
+        <line num="30" count="1" type="stmt"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="34" count="14" type="stmt"/>
+        <line num="35" count="14" type="stmt"/>
+        <line num="37" count="14" type="stmt"/>
+        <line num="38" count="14" type="stmt"/>
+        <line num="39" count="14" type="stmt"/>
+        <line num="40" count="14" type="stmt"/>
+        <line num="41" count="14" type="stmt"/>
+        <line num="42" count="14" type="stmt"/>
+        <line num="43" count="14" type="stmt"/>
+        <line num="44" count="14" type="stmt"/>
+        <line num="45" count="14" type="stmt"/>
         <line num="46" count="0" type="stmt"/>
         <line num="48" count="0" type="stmt"/>
         <line num="49" count="0" type="stmt"/>
         <line num="53" count="0" type="stmt"/>
         <line num="54" count="0" type="stmt"/>
-        <line num="58" count="2" type="stmt"/>
-        <line num="59" count="0" type="stmt"/>
+        <line num="58" count="14" type="stmt"/>
+        <line num="59" count="2" type="stmt"/>
         <line num="60" count="0" type="stmt"/>
         <line num="61" count="0" type="stmt"/>
         <line num="62" count="0" type="stmt"/>
@@ -1081,21 +923,21 @@
         <line num="83" count="0" type="stmt"/>
         <line num="84" count="0" type="stmt"/>
         <line num="86" count="0" type="stmt"/>
-        <line num="89" count="2" type="stmt"/>
-        <line num="90" count="0" type="stmt"/>
+        <line num="89" count="14" type="stmt"/>
+        <line num="90" count="2" type="stmt"/>
         <line num="91" count="0" type="stmt"/>
         <line num="95" count="0" type="stmt"/>
-        <line num="101" count="2" type="stmt"/>
+        <line num="101" count="14" type="stmt"/>
         <line num="103" count="0" type="stmt"/>
         <line num="104" count="0" type="stmt"/>
         <line num="105" count="0" type="stmt"/>
-        <line num="110" count="2" type="stmt"/>
-        <line num="111" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="112" count="0" type="stmt"/>
-        <line num="116" count="0" type="stmt"/>
-        <line num="118" count="0" type="stmt"/>
-        <line num="119" count="0" type="stmt"/>
-        <line num="120" count="0" type="stmt"/>
+        <line num="110" count="14" type="stmt"/>
+        <line num="111" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="112" count="1" type="stmt"/>
+        <line num="116" count="1" type="stmt"/>
+        <line num="118" count="1" type="stmt"/>
+        <line num="119" count="1" type="stmt"/>
+        <line num="120" count="1" type="stmt"/>
         <line num="123" count="1" type="stmt"/>
         <line num="124" count="0" type="stmt"/>
         <line num="125" count="0" type="stmt"/>
@@ -1106,102 +948,106 @@
         <line num="134" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="135" count="0" type="stmt"/>
         <line num="140" count="0" type="stmt"/>
-        <line num="147" count="2" type="stmt"/>
-        <line num="150" count="0" type="stmt"/>
-        <line num="159" count="0" type="stmt"/>
-        <line num="163" count="0" type="stmt"/>
-        <line num="164" count="0" type="stmt"/>
-        <line num="218" count="0" type="stmt"/>
-        <line num="219" count="0" type="stmt"/>
-        <line num="220" count="0" type="stmt"/>
-        <line num="223" count="0" type="stmt"/>
-        <line num="225" count="0" type="stmt"/>
-        <line num="271" count="0" type="stmt"/>
+        <line num="147" count="14" type="stmt"/>
+        <line num="150" count="1" type="stmt"/>
+        <line num="159" count="1" type="stmt"/>
+        <line num="163" count="1" type="stmt"/>
+        <line num="164" count="1" type="stmt"/>
+        <line num="219" count="2" type="stmt"/>
+        <line num="220" count="2" type="stmt"/>
+        <line num="221" count="2" type="stmt"/>
+        <line num="224" count="14" type="stmt"/>
+        <line num="226" count="14" type="stmt"/>
+        <line num="272" count="4" type="stmt"/>
       </file>
-      <file name="ClickSendImage.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/screens/adherence/ClickSendImage.js">
-        <metrics statements="7" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="2"/>
-        <line num="9" count="3" type="stmt"/>
-        <line num="10" count="2" type="stmt"/>
+      <file name="ClickSendImage.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/screens/adherence/ClickSendImage.js">
+        <metrics statements="5" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
         <line num="12" count="0" type="stmt"/>
-        <line num="13" count="0" type="stmt"/>
-        <line num="14" count="0" type="stmt"/>
-        <line num="18" count="2" type="stmt"/>
-        <line num="28" count="1" type="stmt"/>
+        <line num="16" count="2" type="stmt"/>
       </file>
-      <file name="MedicineAdherence.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/screens/adherence/MedicineAdherence.js">
-        <metrics statements="64" coveredstatements="9" conditionals="30" coveredconditionals="3" methods="19" coveredmethods="2"/>
-        <line num="24" count="4" type="stmt"/>
-        <line num="25" count="4" type="stmt"/>
-        <line num="26" count="3" type="stmt"/>
-        <line num="27" count="3" type="stmt"/>
-        <line num="28" count="3" type="stmt"/>
-        <line num="30" count="3" type="stmt"/>
+      <file name="MedicineAdherence.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/screens/adherence/MedicineAdherence.js">
+        <metrics statements="54" coveredstatements="11" conditionals="26" coveredconditionals="5" methods="15" coveredmethods="3"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="23" count="3" type="stmt"/>
+        <line num="24" count="3" type="stmt"/>
+        <line num="25" count="3" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
         <line num="31" count="0" type="stmt"/>
         <line num="32" count="0" type="stmt"/>
-        <line num="33" count="0" type="stmt"/>
-        <line num="34" count="0" type="stmt"/>
-        <line num="40" count="0" type="stmt"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="41" count="0" type="stmt"/>
         <line num="42" count="0" type="stmt"/>
-        <line num="49" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="50" count="0" type="stmt"/>
-        <line num="53" count="0" type="stmt"/>
-        <line num="57" count="0" type="stmt"/>
-        <line num="82" count="0" type="stmt"/>
+        <line num="44" count="0" type="stmt"/>
+        <line num="45" count="0" type="stmt"/>
+        <line num="46" count="0" type="stmt"/>
+        <line num="47" count="0" type="stmt"/>
+        <line num="48" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="53" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="54" count="0" type="stmt"/>
+        <line num="56" count="0" type="stmt"/>
+        <line num="61" count="0" type="stmt"/>
+        <line num="62" count="0" type="stmt"/>
+        <line num="70" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="71" count="0" type="stmt"/>
+        <line num="73" count="0" type="stmt"/>
+        <line num="74" count="0" type="stmt"/>
+        <line num="75" count="0" type="stmt"/>
+        <line num="77" count="0" type="stmt"/>
+        <line num="90" count="0" type="stmt"/>
         <line num="93" count="0" type="stmt"/>
-        <line num="130" count="0" type="stmt"/>
+        <line num="94" count="0" type="stmt"/>
+        <line num="95" count="0" type="stmt"/>
+        <line num="96" count="0" type="stmt"/>
+        <line num="97" count="0" type="stmt"/>
+        <line num="98" count="0" type="stmt"/>
+        <line num="107" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="108" count="0" type="stmt"/>
+        <line num="112" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="113" count="0" type="stmt"/>
+        <line num="117" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="118" count="0" type="stmt"/>
+        <line num="125" count="0" type="stmt"/>
         <line num="131" count="0" type="stmt"/>
-        <line num="132" count="0" type="stmt"/>
-        <line num="133" count="0" type="stmt"/>
-        <line num="134" count="0" type="stmt"/>
-        <line num="139" count="0" type="stmt"/>
+        <line num="136" count="0" type="stmt"/>
+        <line num="140" count="3" type="stmt"/>
+        <line num="142" count="0" type="stmt"/>
         <line num="143" count="0" type="stmt"/>
-        <line num="144" count="0" type="stmt"/>
         <line num="146" count="0" type="stmt"/>
-        <line num="147" count="0" type="stmt"/>
-        <line num="148" count="0" type="stmt"/>
-        <line num="149" count="0" type="stmt"/>
-        <line num="150" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="155" count="0" type="cond" truecount="0" falsecount="4"/>
-        <line num="156" count="0" type="stmt"/>
-        <line num="158" count="0" type="stmt"/>
-        <line num="163" count="0" type="stmt"/>
-        <line num="164" count="0" type="stmt"/>
-        <line num="172" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="173" count="0" type="stmt"/>
-        <line num="175" count="0" type="stmt"/>
-        <line num="176" count="0" type="stmt"/>
-        <line num="177" count="0" type="stmt"/>
-        <line num="179" count="0" type="stmt"/>
-        <line num="192" count="0" type="stmt"/>
-        <line num="195" count="0" type="stmt"/>
-        <line num="196" count="0" type="stmt"/>
-        <line num="197" count="0" type="stmt"/>
-        <line num="198" count="0" type="stmt"/>
-        <line num="199" count="0" type="stmt"/>
-        <line num="200" count="0" type="stmt"/>
-        <line num="209" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="210" count="0" type="stmt"/>
-        <line num="214" count="0" type="cond" truecount="0" falsecount="4"/>
-        <line num="215" count="0" type="stmt"/>
-        <line num="219" count="0" type="cond" truecount="0" falsecount="4"/>
-        <line num="220" count="0" type="stmt"/>
-        <line num="227" count="0" type="stmt"/>
-        <line num="233" count="0" type="stmt"/>
-        <line num="238" count="0" type="stmt"/>
-        <line num="253" count="3" type="stmt"/>
-        <line num="254" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="258" count="3" type="stmt"/>
-        <line num="290" count="1" type="stmt"/>
-        <line num="341" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="342" count="0" type="stmt"/>
+        <line num="151" count="3" type="stmt"/>
+        <line num="152" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="156" count="3" type="stmt"/>
+        <line num="239" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="240" count="1" type="stmt"/>
       </file>
-      <file name="SendImageToCaretaker.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/screens/adherence/SendImageToCaretaker.js">
+      <file name="ReminderMed.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/screens/adherence/ReminderMed.js">
+        <metrics statements="13" coveredstatements="6" conditionals="4" coveredconditionals="1" methods="6" coveredmethods="1"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="13" count="2" type="stmt"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="23" count="2" type="stmt"/>
+        <line num="30" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="63" count="0" type="stmt"/>
+        <line num="74" count="0" type="stmt"/>
+      </file>
+      <file name="SendImageToCaretaker.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/screens/adherence/SendImageToCaretaker.js">
         <metrics statements="91" coveredstatements="21" conditionals="12" coveredconditionals="2" methods="23" coveredmethods="3"/>
-        <line num="25" count="2" type="stmt"/>
-        <line num="26" count="2" type="stmt"/>
-        <line num="27" count="2" type="stmt"/>
-        <line num="28" count="2" type="stmt"/>
-        <line num="29" count="2" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="29" count="1" type="stmt"/>
         <line num="30" count="1" type="stmt"/>
         <line num="31" count="1" type="stmt"/>
         <line num="33" count="1" type="stmt"/>
@@ -1289,87 +1135,36 @@
         <line num="252" count="0" type="stmt"/>
         <line num="258" count="0" type="stmt"/>
       </file>
-      <file name="TodayPerformance.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/screens/adherence/TodayPerformance.js">
-        <metrics statements="48" coveredstatements="3" conditionals="14" coveredconditionals="0" methods="10" coveredmethods="0"/>
-        <line num="5" count="1" type="stmt"/>
-        <line num="10" count="1" type="stmt"/>
-        <line num="12" count="1" type="stmt"/>
-        <line num="13" count="0" type="stmt"/>
-        <line num="14" count="0" type="stmt"/>
-        <line num="15" count="0" type="stmt"/>
-        <line num="16" count="0" type="stmt"/>
-        <line num="18" count="0" type="stmt"/>
-        <line num="19" count="0" type="stmt"/>
-        <line num="20" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="21" count="0" type="stmt"/>
-        <line num="23" count="0" type="stmt"/>
-        <line num="24" count="0" type="stmt"/>
-        <line num="25" count="0" type="stmt"/>
-        <line num="26" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="27" count="0" type="stmt"/>
-        <line num="29" count="0" type="stmt"/>
-        <line num="32" count="0" type="stmt"/>
-        <line num="34" count="0" type="stmt"/>
-        <line num="39" count="0" type="stmt"/>
-        <line num="40" count="0" type="stmt"/>
-        <line num="41" count="0" type="stmt"/>
-        <line num="46" count="0" type="stmt"/>
-        <line num="50" count="0" type="stmt"/>
-        <line num="58" count="0" type="stmt"/>
-        <line num="59" count="0" type="stmt"/>
-        <line num="60" count="0" type="stmt"/>
-        <line num="64" count="0" type="stmt"/>
-        <line num="68" count="0" type="stmt"/>
-        <line num="69" count="0" type="stmt"/>
-        <line num="70" count="0" type="stmt"/>
-        <line num="71" count="0" type="stmt"/>
-        <line num="72" count="0" type="stmt"/>
-        <line num="74" count="0" type="stmt"/>
-        <line num="79" count="0" type="cond" truecount="0" falsecount="4"/>
-        <line num="80" count="0" type="stmt"/>
-        <line num="84" count="0" type="stmt"/>
-        <line num="88" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="89" count="0" type="stmt"/>
-        <line num="91" count="0" type="stmt"/>
-        <line num="96" count="0" type="stmt"/>
-        <line num="98" count="0" type="stmt"/>
-        <line num="102" count="0" type="stmt"/>
-        <line num="106" count="0" type="stmt"/>
-        <line num="110" count="0" type="stmt"/>
-        <line num="117" count="0" type="stmt"/>
-        <line num="124" count="0" type="stmt"/>
-        <line num="143" count="0" type="stmt"/>
-      </file>
     </package>
     <package name="src.screens.adherence.adherenceStyles">
       <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="AdherenceHistoryStyles.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/screens/adherence/adherenceStyles/AdherenceHistoryStyles.js">
+      <file name="AdherenceHistoryStyles.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/screens/adherence/adherenceStyles/AdherenceHistoryStyles.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="1" type="stmt"/>
+      </file>
+      <file name="ClickSendImageStyles.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/screens/adherence/adherenceStyles/ClickSendImageStyles.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="1" type="stmt"/>
+      </file>
+      <file name="MedicineHistoryListStyles.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/screens/adherence/adherenceStyles/MedicineHistoryListStyles.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="3" count="2" type="stmt"/>
       </file>
-      <file name="ClickSendImageStyles.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/screens/adherence/adherenceStyles/ClickSendImageStyles.js">
+      <file name="SendImageToCareTakerStyles.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/screens/adherence/adherenceStyles/SendImageToCareTakerStyles.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="3" count="3" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
       </file>
-      <file name="MedicineHistoryListStyles.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/screens/adherence/adherenceStyles/MedicineHistoryListStyles.js">
+      <file name="TodayPerformanceStyles.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/screens/adherence/adherenceStyles/TodayPerformanceStyles.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="3" count="3" type="stmt"/>
-      </file>
-      <file name="SendImageToCareTakerStyles.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/screens/adherence/adherenceStyles/SendImageToCareTakerStyles.js">
-        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="3" count="2" type="stmt"/>
-      </file>
-      <file name="TodayPerformanceStyles.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/screens/adherence/adherenceStyles/TodayPerformanceStyles.js">
-        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="3" count="2" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
       </file>
     </package>
     <package name="src.screens.alarm">
       <metrics statements="142" coveredstatements="34" conditionals="23" coveredconditionals="1" methods="27" coveredmethods="2"/>
-      <file name="Reminder.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/screens/alarm/Reminder.js">
+      <file name="Reminder.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/screens/alarm/Reminder.js">
         <metrics statements="142" coveredstatements="34" conditionals="23" coveredconditionals="1" methods="27" coveredmethods="2"/>
-        <line num="24" count="2" type="stmt"/>
-        <line num="26" count="2" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
         <line num="27" count="1" type="stmt"/>
         <line num="29" count="1" type="stmt"/>
         <line num="30" count="0" type="stmt"/>
@@ -1514,57 +1309,46 @@
     </package>
     <package name="src.screens.alarm.alarmStyles">
       <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="ReminderStyles.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/screens/alarm/alarmStyles/ReminderStyles.js">
+      <file name="ReminderStyles.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/screens/alarm/alarmStyles/ReminderStyles.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="3" count="2" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
       </file>
     </package>
     <package name="src.screens.caretaker">
-      <metrics statements="91" coveredstatements="23" conditionals="12" coveredconditionals="3" methods="41" coveredmethods="5"/>
-      <file name="AddCaretaker.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/screens/caretaker/AddCaretaker.js">
-        <metrics statements="29" coveredstatements="1" conditionals="2" coveredconditionals="0" methods="15" coveredmethods="0"/>
-        <line num="19" count="3" type="stmt"/>
-        <line num="20" count="0" type="stmt"/>
+      <metrics statements="83" coveredstatements="31" conditionals="12" coveredconditionals="4" methods="37" coveredmethods="5"/>
+      <file name="AddCaretaker.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/screens/caretaker/AddCaretaker.js">
+        <metrics statements="29" coveredstatements="14" conditionals="2" coveredconditionals="1" methods="15" coveredmethods="1"/>
+        <line num="19" count="2" type="stmt"/>
+        <line num="20" count="2" type="stmt"/>
         <line num="21" count="0" type="stmt"/>
-        <line num="23" count="0" type="stmt"/>
-        <line num="24" count="0" type="stmt"/>
-        <line num="25" count="0" type="stmt"/>
-        <line num="26" count="0" type="stmt"/>
-        <line num="27" count="0" type="stmt"/>
-        <line num="28" count="0" type="stmt"/>
+        <line num="23" count="2" type="stmt"/>
+        <line num="24" count="2" type="stmt"/>
+        <line num="25" count="2" type="stmt"/>
+        <line num="26" count="2" type="stmt"/>
+        <line num="27" count="2" type="stmt"/>
+        <line num="28" count="2" type="stmt"/>
         <line num="29" count="0" type="stmt"/>
         <line num="30" count="0" type="stmt"/>
         <line num="31" count="0" type="stmt"/>
-        <line num="34" count="0" type="stmt"/>
+        <line num="34" count="2" type="stmt"/>
         <line num="35" count="0" type="stmt"/>
-        <line num="37" count="0" type="stmt"/>
-        <line num="40" count="0" type="stmt"/>
+        <line num="37" count="2" type="stmt"/>
+        <line num="40" count="2" type="stmt"/>
         <line num="41" count="0" type="stmt"/>
-        <line num="43" count="0" type="stmt"/>
+        <line num="43" count="2" type="stmt"/>
         <line num="44" count="0" type="stmt"/>
-        <line num="46" count="0" type="stmt"/>
+        <line num="46" count="2" type="stmt"/>
         <line num="47" count="0" type="stmt"/>
         <line num="49" count="0" type="stmt"/>
         <line num="50" count="0" type="stmt"/>
         <line num="68" count="0" type="stmt"/>
-        <line num="80" count="0" type="stmt"/>
+        <line num="80" count="2" type="stmt"/>
         <line num="107" count="0" type="stmt"/>
         <line num="108" count="0" type="stmt"/>
         <line num="115" count="0" type="stmt"/>
         <line num="123" count="0" type="stmt"/>
       </file>
-      <file name="Caretaker.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/screens/caretaker/Caretaker.js">
-        <metrics statements="8" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="1"/>
-        <line num="6" count="3" type="stmt"/>
-        <line num="8" count="3" type="stmt"/>
-        <line num="9" count="2" type="stmt"/>
-        <line num="10" count="0" type="stmt"/>
-        <line num="12" count="2" type="stmt"/>
-        <line num="13" count="0" type="stmt"/>
-        <line num="14" count="0" type="stmt"/>
-        <line num="19" count="2" type="stmt"/>
-      </file>
-      <file name="CaretakerComp.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/screens/caretaker/CaretakerComp.js">
+      <file name="CaretakerComp.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/screens/caretaker/CaretakerComp.js">
         <metrics statements="13" coveredstatements="6" conditionals="2" coveredconditionals="0" methods="6" coveredmethods="1"/>
         <line num="12" count="1" type="stmt"/>
         <line num="13" count="1" type="stmt"/>
@@ -1580,14 +1364,14 @@
         <line num="44" count="0" type="stmt"/>
         <line num="46" count="1" type="stmt"/>
       </file>
-      <file name="CaretakerReq.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/screens/caretaker/CaretakerReq.js">
+      <file name="CaretakerReq.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/screens/caretaker/CaretakerReq.js">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="4" count="4" type="stmt"/>
-        <line num="5" count="1" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
       </file>
-      <file name="SearchCaretaker.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/screens/caretaker/SearchCaretaker.js">
+      <file name="SearchCaretaker.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/screens/caretaker/SearchCaretaker.js">
         <metrics statements="39" coveredstatements="9" conditionals="8" coveredconditionals="3" methods="15" coveredmethods="2"/>
-        <line num="15" count="2" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
         <line num="16" count="1" type="stmt"/>
         <line num="17" count="1" type="stmt"/>
         <line num="19" count="1" type="stmt"/>
@@ -1630,20 +1414,20 @@
     </package>
     <package name="src.screens.caretaker.caretakerStyles">
       <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="CaretakerComStyles.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/screens/caretaker/caretakerStyles/CaretakerComStyles.js">
+      <file name="CaretakerComStyles.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/screens/caretaker/caretakerStyles/CaretakerComStyles.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="4" count="3" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
       </file>
-      <file name="SearchCaretakerStyles.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/screens/caretaker/caretakerStyles/SearchCaretakerStyles.js">
+      <file name="SearchCaretakerStyles.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/screens/caretaker/caretakerStyles/SearchCaretakerStyles.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="3" count="2" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
       </file>
     </package>
     <package name="src.screens.components">
       <metrics statements="25" coveredstatements="4" conditionals="19" coveredconditionals="0" methods="5" coveredmethods="1"/>
-      <file name="HistoryDetail.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/screens/components/HistoryDetail.js">
+      <file name="HistoryDetail.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/screens/components/HistoryDetail.js">
         <metrics statements="25" coveredstatements="4" conditionals="19" coveredconditionals="0" methods="5" coveredmethods="1"/>
-        <line num="6" count="3" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
         <line num="7" count="2" type="stmt"/>
         <line num="9" count="0" type="stmt"/>
         <line num="10" count="0" type="stmt"/>
@@ -1671,10 +1455,10 @@
       </file>
     </package>
     <package name="src.screens.login">
-      <metrics statements="63" coveredstatements="10" conditionals="12" coveredconditionals="1" methods="14" coveredmethods="3"/>
-      <file name="GoogleOauth.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/screens/login/GoogleOauth.js">
+      <metrics statements="34" coveredstatements="9" conditionals="6" coveredconditionals="1" methods="8" coveredmethods="3"/>
+      <file name="GoogleOauth.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/screens/login/GoogleOauth.js">
         <metrics statements="34" coveredstatements="9" conditionals="6" coveredconditionals="1" methods="8" coveredmethods="3"/>
-        <line num="18" count="2" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
         <line num="19" count="2" type="stmt"/>
         <line num="20" count="2" type="stmt"/>
         <line num="23" count="0" type="stmt"/>
@@ -1709,70 +1493,34 @@
         <line num="93" count="0" type="stmt"/>
         <line num="94" count="0" type="stmt"/>
       </file>
-      <file name="LoginScreen.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/screens/login/LoginScreen.js">
-        <metrics statements="29" coveredstatements="1" conditionals="6" coveredconditionals="0" methods="6" coveredmethods="0"/>
-        <line num="14" count="1" type="stmt"/>
-        <line num="15" count="0" type="stmt"/>
-        <line num="18" count="0" type="stmt"/>
-        <line num="19" count="0" type="stmt"/>
-        <line num="20" count="0" type="stmt"/>
-        <line num="21" count="0" type="stmt"/>
-        <line num="22" count="0" type="stmt"/>
-        <line num="23" count="0" type="stmt"/>
-        <line num="24" count="0" type="stmt"/>
-        <line num="25" count="0" type="stmt"/>
-        <line num="26" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="27" count="0" type="stmt"/>
-        <line num="28" count="0" type="stmt"/>
-        <line num="29" count="0" type="stmt"/>
-        <line num="30" count="0" type="stmt"/>
-        <line num="34" count="0" type="stmt"/>
-        <line num="36" count="0" type="stmt"/>
-        <line num="37" count="0" type="stmt"/>
-        <line num="40" count="0" type="stmt"/>
-        <line num="41" count="0" type="stmt"/>
-        <line num="42" count="0" type="stmt"/>
-        <line num="48" count="0" type="stmt"/>
-        <line num="49" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="50" count="0" type="stmt"/>
-        <line num="52" count="0" type="stmt"/>
-        <line num="59" count="0" type="stmt"/>
-        <line num="69" count="0" type="stmt"/>
-        <line num="70" count="0" type="stmt"/>
-        <line num="71" count="0" type="stmt"/>
-      </file>
     </package>
     <package name="src.screens.login.loginStyles">
-      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="GoogleAuthStyles.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/screens/login/loginStyles/GoogleAuthStyles.js">
-        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="3" count="2" type="stmt"/>
-      </file>
-      <file name="LoginStyles.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/screens/login/loginStyles/LoginStyles.js">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="GoogleAuthStyles.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/screens/login/loginStyles/GoogleAuthStyles.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="3" count="1" type="stmt"/>
       </file>
     </package>
     <package name="src.screens.patient">
       <metrics statements="203" coveredstatements="68" conditionals="36" coveredconditionals="7" methods="79" coveredmethods="12"/>
-      <file name="MedicineImages.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/screens/patient/MedicineImages.js">
+      <file name="MedicineImages.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/screens/patient/MedicineImages.js">
         <metrics statements="36" coveredstatements="11" conditionals="6" coveredconditionals="1" methods="14" coveredmethods="1"/>
-        <line num="18" count="2" type="stmt"/>
-        <line num="19" count="2" type="stmt"/>
-        <line num="20" count="2" type="stmt"/>
-        <line num="21" count="2" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
         <line num="22" count="0" type="stmt"/>
         <line num="23" count="0" type="stmt"/>
         <line num="24" count="0" type="stmt"/>
         <line num="31" count="0" type="stmt"/>
         <line num="32" count="0" type="stmt"/>
-        <line num="48" count="2" type="stmt"/>
+        <line num="48" count="1" type="stmt"/>
         <line num="49" count="0" type="stmt"/>
         <line num="50" count="0" type="stmt"/>
         <line num="52" count="0" type="stmt"/>
         <line num="61" count="0" type="stmt"/>
         <line num="62" count="0" type="stmt"/>
-        <line num="82" count="2" type="stmt"/>
+        <line num="82" count="1" type="stmt"/>
         <line num="83" count="1" type="stmt"/>
         <line num="84" count="1" type="stmt"/>
         <line num="85" count="1" type="stmt"/>
@@ -1794,9 +1542,9 @@
         <line num="114" count="1" type="stmt"/>
         <line num="126" count="0" type="stmt"/>
       </file>
-      <file name="MyPatients.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/screens/patient/MyPatients.js">
+      <file name="MyPatients.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/screens/patient/MyPatients.js">
         <metrics statements="27" coveredstatements="12" conditionals="4" coveredconditionals="2" methods="14" coveredmethods="1"/>
-        <line num="21" count="4" type="stmt"/>
+        <line num="21" count="2" type="stmt"/>
         <line num="22" count="2" type="stmt"/>
         <line num="23" count="2" type="stmt"/>
         <line num="25" count="2" type="stmt"/>
@@ -1824,9 +1572,9 @@
         <line num="99" count="0" type="stmt"/>
         <line num="111" count="2" type="stmt"/>
       </file>
-      <file name="Patient.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/screens/patient/Patient.js">
+      <file name="Patient.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/screens/patient/Patient.js">
         <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
-        <line num="9" count="3" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
         <line num="10" count="5" type="stmt"/>
         <line num="11" count="5" type="stmt"/>
         <line num="12" count="1" type="stmt"/>
@@ -1836,10 +1584,10 @@
         <line num="31" count="1" type="stmt"/>
         <line num="34" count="5" type="stmt"/>
       </file>
-      <file name="PatientProfile.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/screens/patient/PatientProfile.js">
+      <file name="PatientProfile.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/screens/patient/PatientProfile.js">
         <metrics statements="28" coveredstatements="12" conditionals="2" coveredconditionals="1" methods="12" coveredmethods="3"/>
-        <line num="21" count="2" type="stmt"/>
-        <line num="23" count="2" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
         <line num="24" count="1" type="stmt"/>
         <line num="25" count="1" type="stmt"/>
         <line num="26" count="1" type="stmt"/>
@@ -1867,12 +1615,12 @@
         <line num="177" count="0" type="stmt"/>
         <line num="178" count="0" type="stmt"/>
       </file>
-      <file name="PatientReport.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/screens/patient/PatientReport.js">
+      <file name="PatientReport.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/screens/patient/PatientReport.js">
         <metrics statements="68" coveredstatements="16" conditionals="20" coveredconditionals="1" methods="19" coveredmethods="2"/>
-        <line num="27" count="2" type="stmt"/>
-        <line num="29" count="2" type="stmt"/>
-        <line num="30" count="2" type="stmt"/>
-        <line num="45" count="2" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="30" count="1" type="stmt"/>
+        <line num="45" count="1" type="stmt"/>
         <line num="46" count="0" type="stmt"/>
         <line num="47" count="0" type="stmt"/>
         <line num="48" count="0" type="stmt"/>
@@ -1938,9 +1686,9 @@
         <line num="301" count="0" type="stmt"/>
         <line num="308" count="1" type="stmt"/>
       </file>
-      <file name="PatientRequest.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/screens/patient/PatientRequest.js">
+      <file name="PatientRequest.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/screens/patient/PatientRequest.js">
         <metrics statements="35" coveredstatements="8" conditionals="4" coveredconditionals="2" methods="16" coveredmethods="1"/>
-        <line num="11" count="4" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
         <line num="12" count="2" type="stmt"/>
         <line num="13" count="2" type="stmt"/>
         <line num="14" count="2" type="stmt"/>
@@ -1979,101 +1727,72 @@
     </package>
     <package name="src.screens.patient.patientStyles">
       <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="MedicineImagesStyles.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/screens/patient/patientStyles/MedicineImagesStyles.js">
+      <file name="MedicineImagesStyles.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/screens/patient/patientStyles/MedicineImagesStyles.js">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="3" count="2" type="stmt"/>
-        <line num="4" count="2" type="stmt"/>
-        <line num="6" count="2" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
       </file>
-      <file name="MyPatientStyles.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/screens/patient/patientStyles/MyPatientStyles.js">
-        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="3" count="4" type="stmt"/>
-      </file>
-      <file name="PatientProfileStyles.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/screens/patient/patientStyles/PatientProfileStyles.js">
+      <file name="MyPatientStyles.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/screens/patient/patientStyles/MyPatientStyles.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="3" count="2" type="stmt"/>
       </file>
-      <file name="PatientReportStyles.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/screens/patient/patientStyles/PatientReportStyles.js">
+      <file name="PatientProfileStyles.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/screens/patient/patientStyles/PatientProfileStyles.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="1" type="stmt"/>
+      </file>
+      <file name="PatientReportStyles.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/screens/patient/patientStyles/PatientReportStyles.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="1" type="stmt"/>
+      </file>
+      <file name="PatientRequestStyles.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/screens/patient/patientStyles/PatientRequestStyles.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="3" count="2" type="stmt"/>
       </file>
-      <file name="PatientRequestStyles.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/screens/patient/patientStyles/PatientRequestStyles.js">
+      <file name="PatientStyles.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/screens/patient/patientStyles/PatientStyles.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="3" count="4" type="stmt"/>
-      </file>
-      <file name="PatientStyles.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/screens/patient/patientStyles/PatientStyles.js">
-        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="3" count="3" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
       </file>
     </package>
     <package name="src.screens.profile">
-      <metrics statements="85" coveredstatements="24" conditionals="22" coveredconditionals="2" methods="28" coveredmethods="5"/>
-      <file name="Profile.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/screens/profile/Profile.js">
-        <metrics statements="60" coveredstatements="12" conditionals="22" coveredconditionals="2" methods="25" coveredmethods="2"/>
-        <line num="22" count="4" type="stmt"/>
-        <line num="26" count="0" type="stmt"/>
-        <line num="27" count="0" type="stmt"/>
-        <line num="29" count="0" type="stmt"/>
-        <line num="32" count="0" type="stmt"/>
-        <line num="35" count="0" type="stmt"/>
-        <line num="39" count="0" type="stmt"/>
-        <line num="44" count="4" type="stmt"/>
-        <line num="45" count="6" type="stmt"/>
-        <line num="48" count="6" type="stmt"/>
-        <line num="50" count="6" type="stmt"/>
-        <line num="52" count="6" type="stmt"/>
-        <line num="55" count="0" type="stmt"/>
-        <line num="56" count="0" type="stmt"/>
-        <line num="57" count="0" type="stmt"/>
-        <line num="58" count="0" type="stmt"/>
-        <line num="59" count="0" type="stmt"/>
-        <line num="60" count="0" type="stmt"/>
-        <line num="61" count="0" type="stmt"/>
-        <line num="62" count="0" type="stmt"/>
-        <line num="64" count="0" type="stmt"/>
-        <line num="65" count="0" type="stmt"/>
-        <line num="66" count="0" type="stmt"/>
-        <line num="67" count="0" type="stmt"/>
-        <line num="68" count="0" type="stmt"/>
-        <line num="69" count="0" type="stmt"/>
-        <line num="70" count="0" type="stmt"/>
-        <line num="72" count="0" type="stmt"/>
-        <line num="74" count="0" type="stmt"/>
-        <line num="90" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="91" count="0" type="stmt"/>
-        <line num="92" count="0" type="stmt"/>
-        <line num="96" count="0" type="stmt"/>
-        <line num="102" count="0" type="stmt"/>
-        <line num="107" count="6" type="stmt"/>
-        <line num="110" count="0" type="stmt"/>
-        <line num="111" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="112" count="0" type="stmt"/>
-        <line num="119" count="0" type="stmt"/>
-        <line num="125" count="0" type="stmt"/>
-        <line num="130" count="0" type="stmt"/>
-        <line num="132" count="0" type="stmt"/>
-        <line num="134" count="0" type="stmt"/>
+      <metrics statements="40" coveredstatements="20" conditionals="20" coveredconditionals="2" methods="17" coveredmethods="3"/>
+      <file name="Profile.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/screens/profile/Profile.js">
+        <metrics statements="31" coveredstatements="11" conditionals="20" coveredconditionals="2" methods="16" coveredmethods="2"/>
+        <line num="45" count="1" type="stmt"/>
+        <line num="46" count="6" type="stmt"/>
+        <line num="49" count="6" type="stmt"/>
+        <line num="51" count="6" type="stmt"/>
+        <line num="53" count="6" type="stmt"/>
+        <line num="108" count="6" type="stmt"/>
+        <line num="111" count="0" type="stmt"/>
+        <line num="112" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="113" count="0" type="stmt"/>
+        <line num="120" count="0" type="stmt"/>
+        <line num="126" count="0" type="stmt"/>
+        <line num="131" count="0" type="stmt"/>
+        <line num="133" count="0" type="stmt"/>
         <line num="135" count="0" type="stmt"/>
-        <line num="138" count="0" type="stmt"/>
+        <line num="136" count="0" type="stmt"/>
         <line num="139" count="0" type="stmt"/>
-        <line num="144" count="6" type="stmt"/>
-        <line num="145" count="0" type="stmt"/>
-        <line num="147" count="6" type="stmt"/>
-        <line num="148" count="0" type="stmt"/>
-        <line num="150" count="6" type="stmt"/>
-        <line num="151" count="0" type="stmt"/>
-        <line num="153" count="6" type="stmt"/>
-        <line num="171" count="1" type="stmt"/>
-        <line num="189" count="0" type="stmt"/>
-        <line num="200" count="0" type="stmt"/>
-        <line num="240" count="0" type="stmt"/>
-        <line num="278" count="0" type="stmt"/>
-        <line num="306" count="0" type="stmt"/>
-        <line num="338" count="0" type="stmt"/>
+        <line num="140" count="0" type="stmt"/>
+        <line num="145" count="6" type="stmt"/>
+        <line num="146" count="0" type="stmt"/>
+        <line num="148" count="6" type="stmt"/>
+        <line num="149" count="0" type="stmt"/>
+        <line num="151" count="6" type="stmt"/>
+        <line num="152" count="0" type="stmt"/>
+        <line num="154" count="6" type="stmt"/>
+        <line num="172" count="1" type="stmt"/>
+        <line num="190" count="0" type="stmt"/>
+        <line num="201" count="0" type="stmt"/>
+        <line num="241" count="0" type="stmt"/>
+        <line num="279" count="0" type="stmt"/>
+        <line num="307" count="0" type="stmt"/>
+        <line num="339" count="0" type="stmt"/>
       </file>
-      <file name="SavedDetails.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/screens/profile/SavedDetails.js">
-        <metrics statements="25" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
-        <line num="12" count="5" type="stmt"/>
+      <file name="SavedDetails.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/screens/profile/SavedDetails.js">
+        <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="12" count="2" type="stmt"/>
         <line num="13" count="5" type="stmt"/>
         <line num="14" count="5" type="stmt"/>
         <line num="15" count="5" type="stmt"/>
@@ -2081,71 +1800,37 @@
         <line num="17" count="5" type="stmt"/>
         <line num="18" count="5" type="stmt"/>
         <line num="19" count="5" type="stmt"/>
-        <line num="21" count="5" type="stmt"/>
-        <line num="23" count="1" type="stmt"/>
-        <line num="24" count="0" type="stmt"/>
-        <line num="25" count="0" type="stmt"/>
-        <line num="26" count="0" type="stmt"/>
-        <line num="27" count="0" type="stmt"/>
-        <line num="28" count="0" type="stmt"/>
-        <line num="29" count="0" type="stmt"/>
-        <line num="31" count="0" type="stmt"/>
-        <line num="32" count="0" type="stmt"/>
-        <line num="33" count="0" type="stmt"/>
-        <line num="34" count="0" type="stmt"/>
-        <line num="35" count="0" type="stmt"/>
-        <line num="36" count="0" type="stmt"/>
-        <line num="37" count="0" type="stmt"/>
-        <line num="40" count="1" type="stmt"/>
-        <line num="43" count="5" type="stmt"/>
+        <line num="45" count="5" type="stmt"/>
       </file>
     </package>
     <package name="src.screens.profile.profileStyles">
       <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="ProfileStyles.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/screens/profile/profileStyles/ProfileStyles.js">
-        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="3" count="5" type="stmt"/>
-      </file>
-    </package>
-    <package name="src.screens.screenStyles">
-      <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="AboutAppStyles.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/screens/screenStyles/AboutAppStyles.js">
-        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="4" count="2" type="stmt"/>
-        <line num="5" count="2" type="stmt"/>
-        <line num="6" count="2" type="stmt"/>
-        <line num="7" count="2" type="stmt"/>
-        <line num="10" count="2" type="stmt"/>
-      </file>
-      <file name="AddMedicineStyles.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/screens/screenStyles/AddMedicineStyles.js">
-        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="3" count="5" type="stmt"/>
-      </file>
-      <file name="HomeScreenStyles.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/screens/screenStyles/HomeScreenStyles.js">
-        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="3" count="3" type="stmt"/>
-      </file>
-      <file name="OnboardingStyles.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/screens/screenStyles/OnboardingStyles.js">
+      <file name="ProfileStyles.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/screens/profile/profileStyles/ProfileStyles.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="3" count="2" type="stmt"/>
       </file>
-      <file name="SettingStyles.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/screens/screenStyles/SettingStyles.js">
-        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="3" count="3" type="stmt"/>
-      </file>
-      <file name="UserMedStyles.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/screens/screenStyles/UserMedStyles.js">
-        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="5" count="3" type="stmt"/>
-        <line num="6" count="3" type="stmt"/>
-      </file>
     </package>
-    <package name="src.screens.stackscreens">
-      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <file name="StackScreen.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI-vardhini/src/screens/stackscreens/StackScreen.js">
-        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="23" count="1" type="stmt"/>
-        <line num="25" count="1" type="stmt"/>
-        <line num="26" count="1" type="stmt"/>
+    <package name="src.screens.screenStyles">
+      <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="AboutAppStyles.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/screens/screenStyles/AboutAppStyles.js">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+      </file>
+      <file name="AddMedicineStyles.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/screens/screenStyles/AddMedicineStyles.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="1" type="stmt"/>
+      </file>
+      <file name="OnboardingStyles.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/screens/screenStyles/OnboardingStyles.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="1" type="stmt"/>
+      </file>
+      <file name="SettingStyles.js" path="/home/nineleaps/Desktop/medicine_adherence_frnt-CQI/src/screens/screenStyles/SettingStyles.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="1" type="stmt"/>
       </file>
     </package>
   </project>

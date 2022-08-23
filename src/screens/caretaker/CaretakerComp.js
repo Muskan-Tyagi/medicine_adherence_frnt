@@ -11,10 +11,10 @@ import styles from './caretakerStyles/CaretakerComStyles';
 export default function Caretakercomp({navigation}) {
   const [index, setIndex] = React.useState(0);
   const loginFnc = () => {
-    navigation.navigate('Login');
+    navigation?.navigate('Login');
   }
   const homeFnc = () => {
-    navigation.navigate('Home');
+    navigation?.navigate('Home');
   }
   useFocusEffect(() => {
     async function checkforlog() {

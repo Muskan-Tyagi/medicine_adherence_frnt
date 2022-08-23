@@ -11,9 +11,9 @@ import {
 
 import Toast from 'react-native-toast-message';
 import ProgressCircle from 'react-native-progress-circle';
-import {Picker} from '@react-native-picker/picker';
-import {Button, Divider} from 'react-native-elements';
-import {useFocusEffect} from '@react-navigation/native';
+import { Picker } from '@react-native-picker/picker';
+import { Button, Divider } from 'react-native-elements';
+import { useFocusEffect } from '@react-navigation/native';
 import allreminderdata from '../../components/adherence/allReminderData';
 import queryData from '../../repositories/database/queryData';
 import * as Progress from 'react-native-progress';
@@ -22,7 +22,7 @@ import adherence from '../../redux/apis/adherence';
 import downloadPdf from '../../components/adherence/downloadPdf';
 import MedicinehistoryList from '../../components/organisms/medicineHistoryList';
 import globalDb from '../../repositories/database/globalDb';
-import Carousel, {Pagination} from 'react-native-snap-carousel';
+import Carousel, { Pagination } from 'react-native-snap-carousel';
 import styles from './adherenceStyles/AdherenceHistoryStyles';
 import Logger from '../../components/logger';
 
@@ -32,14 +32,14 @@ LogBox.ignoreAllLogs();
 let db;
 const AdherenceHistory = () => {
   const [pickerValue, setPickerValue] = React.useState();
-  const [allreminders, reminders_state] = React.useState([]);
+  const [allreminders, reminders_state] = React.useState([{status:1,medicine_name:"PCM"}]);
   const [reminder_map_fetched_data, reminder_map_fetched_data_state] =
     React.useState([]);
-  const [med_detail, med_detail_state] = React.useState();
-  const [sync, syncstate] = React.useState(false);
+  const [med_detail, med_detail_state] = React.useState("Take with water");
+  const [sync, syncstate] = React.useState(true);
   const [disableDownload, downloadState] = React.useState(true);
   const [modalVisible, setModalVisible] = React.useState(false);
-  const [showDetail, showDetailState] = React.useState(false);
+  const [showDetail, showDetailState] = React.useState(true);
   const [imagearray, setimagearray] = React.useState([]);
   const [index, setindex] = React.useState(0);
   const fetchreminders = async dbs => {
@@ -58,11 +58,11 @@ const AdherenceHistory = () => {
   const remindersofparticular_medicine = async med_name => {
     const histoy_obj = await allreminderdata(med_name);
     const output_map = histoy_obj.mapper;
-    const {meds_id} = histoy_obj;
+    const { meds_id } = histoy_obj;
     globalmedId = meds_id;
     let f_array = [];
     for (let [key, value] of output_map.entries()) {
-      let arr = {date: key, key: {taken: [], not_taken: [], remId: ''}};
+      let arr = { date: key, key: { taken: [], not_taken: [], remId: '' } };
       arr.key.taken = value.taken;
       arr.key.not_taken = value.not_taken;
       arr.key.remId = value.remId;
@@ -71,7 +71,7 @@ const AdherenceHistory = () => {
     reminder_map_fetched_data_state(f_array);
     let syncData = [];
     f_array.map(mdata => {
-      let mobj = {date: '', taken: [], not_taken: [], remId: ''};
+      let mobj = { date: '', taken: [], not_taken: [], remId: '' };
       mobj.date = mdata.date;
       mobj.taken = mdata.key.taken;
       mobj.not_taken = mdata.key.not_taken;
@@ -80,7 +80,7 @@ const AdherenceHistory = () => {
     });
     downloadState(true);
     syncstate(true);
-    await adherence.syncmedicineHistory({meds_id, syncData});
+    await adherence.syncmedicineHistory({ meds_id, syncData });
     syncstate(false);
 
     downloadState(false);
@@ -159,12 +159,12 @@ const AdherenceHistory = () => {
                 onSnapToItem={inde => setindex(inde)}
                 layout={'stack'}
                 data={imagearray}
-                renderItem={({item}) => {
+                renderItem={({ item }) => {
                   Logger.loggerInfo('image');
                   return (
                     <View style={styles.carousalImageView}>
                       <Image
-                        source={{uri: `${item}`}}
+                        source={{ uri: `${item}` }}
                         resizeMode="contain"
                         style={styles.carousalImage}></Image>
                       <View style={styles.medNameView1}>
@@ -187,7 +187,7 @@ const AdherenceHistory = () => {
             </>
           ) : (
             <LottieView
-              style={{width: 70, height: 70}}
+              style={{ width: 70, height: 70 }}
               speed={0.8}
               source={require('../../../assests/animate/generatepdf.json')}
               autoPlay
@@ -211,6 +211,7 @@ const AdherenceHistory = () => {
       <View style={styles.conatiner1}>
         <View style={styles.medNameView}>
           <Picker
+            id="picker1"
             mode="dropdown"
             style={styles.medNamePicker}
             selectedValue={pickerValue}
@@ -243,7 +244,7 @@ const AdherenceHistory = () => {
               med_detail &&
               Math.round(
                 (med_detail.current_count / med_detail.total_med_reminders) *
-                  100,
+                100,
               )
             }
             radius={35}
@@ -254,7 +255,7 @@ const AdherenceHistory = () => {
               {med_detail &&
                 Math.round(
                   (med_detail.current_count / med_detail.total_med_reminders) *
-                    100,
+                  100,
                 ) + '%'}
             </Text>
           </ProgressCircle>
@@ -267,7 +268,7 @@ const AdherenceHistory = () => {
       {
         <FlatList
           data={reminder_map_fetched_data}
-          renderItem={({item}) => {
+          renderItem={({ item }) => {
             return (
               <MedicinehistoryList
                 item={item}

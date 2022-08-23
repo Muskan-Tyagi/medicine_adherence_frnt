@@ -18,6 +18,8 @@ const SavedDetails = () => {
   const [ms, msstate] = React.useState('');
   const [blood, bloodstate] = React.useState('');
 
+     /* istanbul ignore next */
+     
   useFocusEffect(() => {
     async function getuserdetail() {
       let sbio = await AsyncStorage.getItem('bio');

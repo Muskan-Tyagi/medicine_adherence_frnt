@@ -23,30 +23,30 @@
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">21.05% </span>
+                <span class="strong">0% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>4/19</span>
+                <span class='fraction'>0/0</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
                 <span class="strong">0% </span>
                 <span class="quiet">Branches</span>
-                <span class='fraction'>0/2</span>
+                <span class='fraction'>0/0</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">100% </span>
+                <span class="strong">0% </span>
                 <span class="quiet">Functions</span>
-                <span class='fraction'>2/2</span>
+                <span class='fraction'>0/0</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">21.05% </span>
+                <span class="strong">0% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>4/19</span>
+                <span class='fraction'>0/0</span>
             </div>
         
             
@@ -98,72 +98,75 @@
 <a name='L33'></a><a href='#L33'>33</a>
 <a name='L34'></a><a href='#L34'>34</a>
 <a name='L35'></a><a href='#L35'>35</a>
-<a name='L36'></a><a href='#L36'>36</a></td><td class="line-coverage quiet"><span class="cline-any cline-yes">7x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<a name='L36'></a><a href='#L36'>36</a>
+<a name='L37'></a><a href='#L37'>37</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">const AdherencePercentage = (startDate, days, times, currentCount, _name) =&gt; {
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">/* istanbul ignore next */
+const AdherencePercentage = (startDate, days, times, currentCount, _name) =&gt; {
   return new Promise(res =&gt; {
     let tilldatecount = 0;
     let daysarray = days.split(':');
-    let ttimes = <span class="cstat-no" title="statement not covered" >times.split('-').length;</span>
-    let daysSet = <span class="cstat-no" title="statement not covered" >new Set(daysarray);</span>
-    const today = <span class="cstat-no" title="statement not covered" >new Date();</span>
-    const _MS_PER_DAY = <span class="cstat-no" title="statement not covered" >1000 * 60 * 60 * 24;</span>
+    let ttimes = times.split('-').length;
+    let daysSet = new Set(daysarray);
+    const today = new Date();
+    const _MS_PER_DAY = 1000 * 60 * 60 * 24;
 &nbsp;
-    let startingDate = <span class="cstat-no" title="statement not covered" >new Date(startDate);</span>
-    const utc1 = <span class="cstat-no" title="statement not covered" >Date.UTC(</span>
+    let startingDate = new Date(startDate);
+    const utc1 = Date.UTC(
       today.getFullYear(),
       today.getMonth(),
       today.getDate(),
     );
-    const utc2 = <span class="cstat-no" title="statement not covered" >Date.UTC(</span>
+    const utc2 = Date.UTC(
       startingDate.getFullYear(),
       startingDate.getMonth(),
       startingDate.getDate(),
     );
 &nbsp;
-    let left = <span class="cstat-no" title="statement not covered" >Math.abs(Math.floor((utc2 - utc1) / _MS_PER_DAY));</span>
-    const weeks = <span class="cstat-no" title="statement not covered" >['Sun', 'Mon', 'Tue', 'Wed', 'Thur', 'Fri', 'Sat'];</span>
-<span class="cstat-no" title="statement not covered" >    while (left &gt;= 0) {</span>
-<span class="cstat-no" title="statement not covered" >      if (daysSet.has(weeks[startingDate.getDay()])) {</span>
-<span class="cstat-no" title="statement not covered" >        tilldatecount += ttimes;</span>
+    let left = Math.abs(Math.floor((utc2 - utc1) / _MS_PER_DAY));
+    const weeks = ['Sun', 'Mon', 'Tue', 'Wed', 'Thur', 'Fri', 'Sat'];
+    while (left &gt;= 0) {
+      if (daysSet.has(weeks[startingDate.getDay()])) {
+        tilldatecount += ttimes;
       }
-<span class="cstat-no" title="statement not covered" >      left--;</span>
-<span class="cstat-no" title="statement not covered" >      startingDate.setDate(startingDate.getDate() + 1);</span>
+      left--;
+      startingDate.setDate(startingDate.getDate() + 1);
     }
-<span class="cstat-no" title="statement not covered" >    res(Math.round((currentCount / tilldatecount) * 100));</span>
+    res(Math.round((currentCount / tilldatecount) * 100));
   });
 };
 &nbsp;
@@ -175,7 +178,7 @@ export default AdherencePercentage;
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
-                at 2022-08-19T10:36:46.238Z
+                at 2022-08-23T08:01:58.410Z
             </div>
         <script src="../../../prettify.js"></script>
         <script>

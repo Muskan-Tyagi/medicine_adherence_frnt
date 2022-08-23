@@ -19,6 +19,7 @@ import OctIcon from 'react-native-vector-icons/Octicons';
 import IonIcon from 'react-native-vector-icons/Ionicons';
 import EntIcon from 'react-native-vector-icons/Entypo';
 
+/* istanbul ignore next */
 const loginValidationSchema = yup.object().shape({
   Bio: yup.string().required('Bio is Required'),
   Contact: yup
@@ -50,7 +51,7 @@ const Profile = ({navigation}) => {
   const [load, loadstate] = React.useState(false);
 
   const [editenabled, editstate] = React.useState(false);
-
+/* istanbul ignore next */
   async function storeuserdetails(values) {
     loadstate(true);
     await AsyncStorage.setItem('bio', values.Bio);
